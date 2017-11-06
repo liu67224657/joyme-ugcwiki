@@ -1,0 +1,29 @@
+.zz-img,.xg-img{ width:90px; height:90px; overflow:hidden; float:left}
+.zz-img img,.xg-img img{ width:100%; height:auto}
+.zz-con,.xg-con{ float:left; height:90px; width:155px; overflow:hidden; margin:0 0 15px 15px}
+.zzc-tit{ font-size:22px; font-weight:bold; margin-bottom:10px}
+.zzc-p{ line-height:22px}
+.zz-now span{ display:block; font-size:15px; font-weight:bold; margin-bottom:1px}
+.zz-now a{ display:block;overflow:hidden; white-space: nowrap; text-overflow:ellipsis; width:260px}
+.article-xiangguanwiki{ }
+.xg-con{ width:135px;}
+.article-xiangguanwiki .zzc-tit{ font-size:14px; margin:10px 0 5px}
+.zg-btn{ height:72px; line-height:74px;background: -webkit-linear-gradient(#3b92df, #2580cb);background: -o-linear-gradient(#3b92df, #2580cb);background: -moz-linear-gradient(#3b92df, #2580cb); background: linear-gradient(#3b92df, #2580cb); border:2px solid #5893c5; color:#fff; display:block;border-radius:5px; font-size:23px; text-align:center;  }
+.zg-btn:hover{ background:#64a8e2}
+.xg-a{display:block; padding:0 10px}
+.xg-img{ margin:20px 0 20px 10px}
+.xg-con{ width:125px; margin:20px 0 20px 15px}
+.hot-wiki h3{ margin-bottom:14px}
+.hw-con img{ width:100%; height:auto;transition: all 0.4s ease 0s}
+.hw-con img:hover{transform: scale(1.1)}
+.hw-con i{ width:100%; height:84px; overflow:hidden; display:block}
+.hw-con p{ margin:5px auto 10px; text-align:center; font-size:14px}
+.hw-con{ display:block; }
+.hot-wiki a{ color:#333;text-decoration: none}
+.hot-wiki a:hover{color: #f35050;}
+.hk-box{ border:1px solid #ccc; padding:20px; margin-top:15px}
+.hk-box p{ margin:0; line-height:1.8em; text-indent:2em; font-size:14px}
+.hk-box a{background: #3eb17f none repeat scroll 0 0;color: #fff !important;display: block; font-size: 18px;height: 72px !important;line-height: 72px;margin: 20px auto 0;text-align: center;width: 218px;}
+.hk-box a:hover{ background:#48cc92}
+.article-Rdjyc-box1{ height:260px !important}
+.bqydt>div>a cite{ height:124px !important}

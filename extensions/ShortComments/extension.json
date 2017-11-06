@@ -1,0 +1,37 @@
+{
+	"name": "ShortComments",
+	"version": "1.0",
+	"author": [	"Islander" ],
+	"url": "https://www.mediawiki.org/wiki/Extension:ShortComments",
+	"descriptionmsg": "shortcomments-desc",
+	"type": "parserhook",
+	"APIModules": {
+		"shortcomments": "ShortCommentsAPI"
+	},
+	"MessagesDirs": {
+		"ShortComments": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"ShortCommentsMagic": "ShortComments.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"ShortCommentsAPI": "ShortComments.api.php",
+		"ShortCommentsPage": "ShortCommentsPage.php",
+		"ShortCommentsHooks": "ShortComments.hooks.php"		
+	},
+	"ResourceModules": {
+		"ext.shortcomment.js": {
+			"scripts": "ShortComments.js",
+			"messages": [
+				"shortcomments-once"
+			]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"ShortCommentsHooks::onParserFirstCallInit"
+		]
+	}
+}

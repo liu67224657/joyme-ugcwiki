@@ -1,0 +1,27 @@
+{
+	"name": "ArticleList",
+	"author": "Me",
+	"version": "1.0.0",
+	"url": "",
+	"descriptionmsg": "",
+	"license-name": "GPL-2.0+",
+	"type": "parserhook",
+	"ResourceModules": {
+		"ext.articlelist.css": {
+			"styles": "articlelist.css",
+			"position": "top"
+		}
+	},
+	"AutoloadClasses": {
+		"ArticleList": "ArticleList.class.php"
+	},
+	"ExtensionMessagesFiles": {
+		"ArticleList": "ArticleList.i18n.php"
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"ArticleList::onParserSetup"
+		]
+	},
+	"manifest_version": 1
+}

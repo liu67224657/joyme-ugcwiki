@@ -1,0 +1,26 @@
+{
+  "@metadata": {
+	"authors": [
+	  "Shixin"
+	]
+  },
+	"seosettings": "网站信息管理",
+    "seo_management":"SEO管理",
+  	"seo_wiki_seo_title":"title：",
+    "seo_wiki_keywords":"keywords：",
+    "seo_wiki_descripttion":"descripttion：",
+    "seo_wiki_seo_id":"wiki_seo_id",
+  	"user_permissions":"普通用户权限：",
+  	"user_permissions_yes":"可编辑",
+  	"user_permissions_no":"不可编辑",
+  	"discussion_area_setting":"讨论区设置：",
+  	"discussion_area_yes":"开启：",
+  	"discussion_area_no":"不开启：",
+  	"seting_mobile_status":"手机版首页设置：",
+    "seo_wiki_submit":"提交",
+  	"seo_tip_sucess":"操作成功",
+  	"seo_tip_failure":"操作失败",
+  	"seo_tip_title_lenth":"title不能超过150字符",
+  	"seo_tip_keywords_lenth":"keywords不能超过600字符",
+  	"seo_tip_descripttion_lenth":"descripttion不能超过600字符"
+}

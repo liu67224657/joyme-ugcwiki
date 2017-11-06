@@ -1,0 +1,25 @@
+{
+    "name": "wikidynamic",
+    "author": [
+        "Shixin"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:RecommendUsers",
+    "descriptionmsg": "recommendusers",
+    "license-name": "GPL-2.0+",
+    "type": "specialpage",
+    "MessagesDirs": {
+        "wikidynamic": [
+            "i18n"
+        ]
+    },
+    "AvailableRights": [
+        "wikidynamic"
+    ],
+    "SpecialPages": {
+        "WikiDynamic": "SpecialWikiDynamic"
+    },
+    "AutoloadClasses": {
+        "SpecialWikiDynamic": "specials/SpecialWikiDynamic.php",
+        "WikiDynamicClass":"WikiDynamicClass.php"
+    }
+}

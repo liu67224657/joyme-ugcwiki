@@ -1,0 +1,110 @@
+{
+	"description": "Test `_rec` with `~/!~` comparators on allowed values (#1207, `smwStrictComparators=false`)",
+	"properties": [
+		{
+			"name": "Has restricted status record",
+			"contents": "[[Has type::Text]] [[Allows value::open]], [[Allows value::closed]], [[Allows value::in progress]]"
+		}
+	],
+	"subjects": [
+		{
+			"name": "Example/1201/1",
+			"contents": "[[Category:E-1201]][[Has restricted status record::open]]"
+		},
+		{
+			"name": "Example/1201/2",
+			"contents": "[[Category:E-1201]]{{#set:Has restricted status record=closed}}"
+		},
+		{
+			"name": "Example/1201/3",
+			"contents": "{{#subobject:Has restricted status record=in progress|@category=E-1201}}"
+		},
+		{
+			"name": "Example/1201/4",
+			"contents": "[[Category:E-1201]][[Has restricted status record::none of the above]]"
+		}
+	],
+	"query-testcases": [
+		{
+			"about": "#0 like *en*",
+			"condition": "[[Category:E-1201]][[Has restricted status record::~*en*]]",
+			"printouts" : [],
+			"parameters" : {
+				"limit" : "10"
+			},
+			"queryresult": {
+				"count": 1,
+				"results": [
+					"Example/1201/1#0##"
+				]
+			}
+		},
+		{
+			"about": "#1 like cl*",
+			"condition": "[[Category:E-1201]][[Has restricted status record::~cl*]]",
+			"printouts" : [],
+			"parameters" : {
+				"limit" : "10"
+			},
+			"queryresult": {
+				"count": 1,
+				"results": [
+					"Example/1201/2#0##"
+				]
+			}
+		},
+		{
+			"about": "#2 not like cl*",
+			"condition": "[[Category:E-1201]][[Has restricted status record::!~cl*]]",
+			"printouts" : [],
+			"parameters" : {
+				"limit" : "10"
+			},
+			"queryresult": {
+				"count": 2,
+				"results": [
+					"Example/1201/1#0##",
+					"Example/1201/3#0##_21b274980f5e103560d43a63c84cf984"
+				]
+			}
+		},
+		{
+			"about": "#3 not like cl* AND *in*",
+			"condition": "[[Category:E-1201]]<q>[[Has restricted status record::!~cl*]] AND [[Has restricted status record::!~*in*]]</q>",
+			"printouts" : [],
+			"parameters" : {
+				"limit" : "10"
+			},
+			"queryresult": {
+				"count": 1,
+				"results": [
+					"Example/1201/1#0##"
+				]
+			}
+		},
+		{
+			"about": "#4 not like cl* OR *in* (doesn't make much sense, we test it anyway)",
+			"condition": "[[Category:E-1201]]<q>[[Has restricted status record::!~cl*]] OR [[Has restricted status record::!~*in*]]</q>",
+			"printouts" : [],
+			"parameters" : {
+				"limit" : "10"
+			},
+			"queryresult": {
+				"count": 3,
+				"results": [
+					"Example/1201/1#0##",
+					"Example/1201/2#0##",
+					"Example/1201/3#0##_21b274980f5e103560d43a63c84cf984"
+				]
+			}
+		}
+	],
+	"settings": {
+		"smwStrictComparators": false
+	},
+	"meta": {
+		"version": "0.1",
+		"is-incomplete": false,
+		"debug": false
+	}
+}

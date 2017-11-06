@@ -1,0 +1,35 @@
+{
+	"name": "JProficients",
+	"version": "1.0",
+	"author": [	"Gradydong" ],
+	"url": "Extension:JProficients",
+	"descriptionmsg": "jproficients-desc",
+	"type": "parserhook",
+	"APIModules": {},
+	"MessagesDirs": {
+		"JProficients": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {},
+	"AutoloadClasses": {
+		"JProficientsHooks": "JProficients.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.jproficients.css": {
+			"styles": "JProficients.css",
+			"position": "top"
+		},
+		"ext.jproficients.js": {
+			"scripts": "JProficients.js",
+			"messages": [
+				"jproficients-once"
+			]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"JProficientsHooks::onParserFirstCallInit"
+		]
+	}
+}

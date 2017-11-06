@@ -1,0 +1,35 @@
+{
+	"name": "JNovices",
+	"version": "1.0",
+	"author": [	"GradyDong" ],
+	"url": "Extension:JNovices",
+	"descriptionmsg": "jnovices-desc",
+	"type": "parserhook",
+	"APIModules": {},
+	"MessagesDirs": {
+		"JNovices": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {},
+	"AutoloadClasses": {
+		"JNovicesHooks": "JNovices.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.jnovices.css": {
+			"styles": "JNovices.css",
+			"position": "top"
+		},
+		"ext.jnovices.js": {
+			"scripts": "JNovices.js",
+			"messages": [
+				"jnovices-once"
+			]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"JNovicesHooks::onParserFirstCallInit"
+		]
+	}
+}

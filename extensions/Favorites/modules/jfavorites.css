@@ -1,0 +1,32 @@
+.like-list-box  a{color:#2781ff;}
+.like-list-box .page-h1 .my_save{ float:left;}
+.like-list-box .page-h1 .choose_wiki{ float:right;}
+.like-list-box .page-h1 .choose_wiki select{width: 150px;height: 21px;border:1px solid #efefef;border-radius: 5px;}
+.like-list dt{color:#777;font-size:14px;font-weight: normal;height:40px;line-height: 40px;border-bottom:1px dashed #f3f3f3;width:100%;}
+.like-list dt span,.like-list dd a,.like-list dd span{display: block;float:left;}
+.like-list dd span.web-show{display: none;}
+.like-list dd {line-height: 22px;overflow: auto;padding:9px 0;}
+.like-tit,.like-list dd a:nth-of-type(1){width:23%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding-right:10px;}
+.form-action,.like-list dd span:nth-of-type(1){width:19%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; text-align:center;}
+.form-wiki,.like-list dd span:nth-of-type(2){width:19%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.edit-num,.like-list dd span:nth-of-type(3){width:19%;text-align: center;}
+.last-time,.like-list dd span:nth-of-type(4),.like-list dd span:nth-last-of-type(1){width:20%;text-align: center;}
+.form-wiki{text-indent: 18px;}
+.link-count{display: block;padding:20px;background-color: #fff;text-align:center;color:#2a2a2a;font-size:16px;}
+.user-messing-situ-save{ padding:0px; font-size:14px; background-color:#fff;}
+.user-messing-situ-save ul li{ height:44px; border-bottom:1px solid #efefef; line-height:44px; padding-left:2em;}
+.user-messing-situ-save ul li font{ float:left; padding-right:1em; display:block;}
+.user-messing-situ-save ul li span{width: 26px;
+    height: 20px;
+    background-color: #ff5050;
+    color: #fff;
+    float: left;
+    display: block;
+    margin-top: 11px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 2px; font-size:12px;}
+	.user-messing-situ-save ul li a{ color:#000;}
+	.user-messing-situ-save ul li span a{ color:#fff;}
+.user-messing-situ-save ul li.click{ background-color:#efefef;}
+.user-messing-situ-save ul li.click a{ color:#0C2B63;}

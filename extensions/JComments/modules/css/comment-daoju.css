@@ -1,0 +1,106 @@
+
+.fb-pl .fb-detail .daoju-top{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
+.fb-bt .tx-ms .toux .userinfo{
+	display: inline-block;
+	position: relative;
+}
+.fb-pl .fb-detail .daoju-top1{
+	background: url(../../images/daoju/1/d-big-top1.png) center no-repeat;
+	height: 11px;
+	background-size: 100%  ;
+	top: -5px;
+}
+.fb-pl .fb-detail .daoju-top2{
+	background: url(../../images/daoju/2/d-big-top2.png) center no-repeat;
+	height: 18px;
+	background-size: 100%  ;
+	top: -8px;
+}
+.fb-pl .fb-detail .daoju-top3{
+	background: url(../../images/daoju/3/d-big-top3.png) center no-repeat;
+	height: 11px;
+	background-size: 100%  ;
+	top: -5px;
+}
+.fb-pl .fb-detail .daoju-top4{
+	background: url(../../images/daoju/4/d-big-top4.png) center no-repeat;
+	height: 13px;
+	background-size: 100%  ;
+	top: -7px;
+}
+.fb-pl .fb-detail .daoju-top5{
+	background: url(../../images/daoju/5/d-big-top5.png) center no-repeat;
+	height: 43px;
+	background-size: 100%  ;
+	top: -22px;
+}
+.fb-pl .fb-detail .daoju-top6{
+	background: url(../../images/daoju/6/d-big-top6.png) center no-repeat;
+	height: 11px;
+	background-size: 100%  ;
+	top: -10px;
+}
+.fb-pl .fb-detail .daoju-top7{
+	background: url(../../images/daoju/7/d-big-top7.png) center no-repeat;
+	width: 60%;
+	left: 50%;
+	height: 48px;
+	background-size: 100%;
+	top: -20px;
+	margin-left: -30%;
+}
+
+.fb-pl .tx-ms .toux .daoju{
+	position: absolute;
+	z-index: 2;
+	left: -10%;
+	top: -10%;
+	width: 100%;
+	height: 100%;
+	padding:10%;
+	background-repeat: no-repeat;
+}
+.fb-pl .tx-ms .toux .daoju.daoju-head1{
+	background-image: url(../../images/daoju/d-head_02.png);
+	left: -2%; top: -2%; padding:2%;
+	background-size: 100%;
+}
+.fb-pl .tx-ms .toux .daoju.daoju-head2{
+	background-image: url(../../images/daoju/d-head_06.png);
+	background-size: 100%;
+
+	left: -2%; top: -2%; padding:2%;
+}
+.fb-pl .tx-ms .toux .daoju.daoju-head3{
+	background-image: url(../../images/daoju/d-head_09.png);
+	background-size: 100%;
+
+	left: -2%; top: -2%; padding:2%;
+}
+.fb-pl .tx-ms .toux .daoju.daoju-head4{
+	background-image: url(../../images/daoju/d-head_12.png);
+	background-size: 100%;
+
+	left: -2%; top: -2%; padding:2%;
+}
+.fb-pl .tx-ms .toux .daoju.daoju-head5{
+	background-image: url(../../images/daoju/d-head_15.png);
+	background-size: 100%;
+
+}
+.fb-pl .tx-ms .toux .daoju.daoju-head6{
+	background-image: url(../../images/daoju/d-head_18.png);
+	background-size: 100%;
+
+}
+.fb-pl .tx-ms .toux .daoju.daoju-head7{
+	background-image: url(../../images/daoju/d-head_21.png);
+	background-size: 100%;
+
+}

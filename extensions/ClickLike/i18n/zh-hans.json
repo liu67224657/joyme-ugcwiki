@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Islander"
+		]
+	},
+	"clicklike-db-locked": "<h3>点赞</h3>数据库当前因正在进行日常维护而被锁定，过会它会恢复正常，请稍后再来。",
+	"clicklike-once": "只能点赞一次"
+}

@@ -1,0 +1,35 @@
+/* css reset end */
+.joyme-dialog-popup-mc{width: 100%; height: 100%;position: fixed;background: rgba(0,0,0,0.6); top:0; bottom: 0; left: 0; right: 0; z-index: 100;display: block;}
+.joyme-dialog-wiki-popup{ width: 398px; border: 1px solid #d5d5d5; height: 214px; background-color: #fff; margin: 0 auto; position: fixed; top:30%; left: 34%;}
+.joyme-dialog-wiki-popup .joyme-dialog-warning{ width: 100%; height: 38px; background-color: #4e92fb;}
+.joyme-dialog-wiki-popup .joyme-dialog-warning p{ line-height: 38px; margin-left: 10px;font-size: 16px; color: #fff;}
+
+.joyme-dialog-wiki-popup .joyme-dialog-warning p span {
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    margin-right: 9px;
+    text-align: center;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #4e92fb;
+    font-weight: bold;
+}
+
+.joyme-dialog-wiki-popup .joyme-dialog-warning p b{ font-style: normal; display: inline-block; font-weight: normal;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con{ padding: 30px 40px;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-text p{ line-height: 24px; color: #2d2d2d; font-size: 16px;text-align: center;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-text .sur-num{
+    font-style: normal;
+}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-time{ text-align:center; padding-top: 8px;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-time span{ font-size: 16px; color: #bdbdbd;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-close{ text-align: center; padding-top: 15px;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-close p a{ width: 82px; font-size: 16px; cursor: pointer; border: 1px solid #d6d6d6; height: 30px; line-height: 30px; color:#2d2d2d; display: inline-block; background-color: #f6f6f6; border-radius: 4px;text-decoration: none;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-close p a.joyme-dialog-confirm{ margin-right: 20px;}
+.joyme-dialog-wiki-popup .joyme-dialog-warn-con .joyme-dialog-warn-close p a:hover{ border: 1px solid #60c1ff;}
+@media (max-width: 991px) {
+.joyme-dialog-wiki-popup{ width:90%; left:5%;}
+}

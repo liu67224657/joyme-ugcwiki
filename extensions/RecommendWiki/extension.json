@@ -1,0 +1,31 @@
+{
+    "name": "recommendwiki",
+    "author": [
+        "Shixin"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:RecommendUsers",
+    "descriptionmsg": "recommendwiki",
+    "license-name": "GPL-2.0+",
+    "type": "specialpage",
+    "GroupPermissions": {
+        "bureaucrat": {
+            "recommendwiki": true
+        }
+    },
+    "MessagesDirs": {
+        "recommendwiki": [
+            "i18n"
+        ]
+    },
+
+    "AvailableRights": [
+        "recommendwiki"
+    ],
+    "SpecialPages": {
+        "RecommendWiki": "SpecialRecommendWiki"
+    },
+    "AutoloadClasses": {
+        "SpecialRecommendWiki": "specials/SpecialRecommendWiki.php",
+        "RecommendWiki": "RecommendWikiClass.php"
+    }
+}

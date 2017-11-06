@@ -1,0 +1,34 @@
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+/* css common */
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+.job{ width:2500px; height:500px; padding:30px 0;}
+.job li{padding:25px 0;}
+.one{float:left; display:block; border-right:3px solid #666; padding:0 30px;}
+.sm{margin: 0 40px;}
+.skill{float:left; width:140px; height:40px;-moz-border-radius: 30px;-webkit-border-radius:30px;border-radius:30px;position:relative;text-align:center;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#fcffff,endColorStr=#b3cbd7); /*IE 6 7 8*/ 
+background: -ms-linear-gradient(top, #fcffff,  #b3cbd7);        /* IE 10 */
+background:-moz-linear-gradient(top,#fcffff,#b3cbd7);/*»ðºü*/ 
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fcffff), to(#b3cbd7));/*¹È¸è*/ 
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcffff), to(#b3cbd7));      /* Safari 4-5, Chrome 1-9*/
+background: -webkit-linear-gradient(top, #fcffff, #b3cbd7);   /*Safari5.1 Chrome 10+*/
+background: -o-linear-gradient(top, #fcffff, #b3cbd7);  /*Opera 11.10+*/
+}
+.toskill{float:left; width:80px; height:4px; background-color:#89c71e; margin:18px 0;}
+.noskill{float:left; margin: 0 40px;width:140px; height:40px;-moz-border-radius: 30px;-webkit-border-radius:30px;border-radius:30px;}
+.skill-icon{position:absolute;z-index:9;left:-50px;top:-9px;}
+.skill-icon em{position:absolute; right:21px; bottom:2px; font-size:12px; color:#000;}
+.skill-icon b{position:absolute; right:19px; top:0; display:none; cursor:pointer;}
+.title{line-height:40px; font-size:18px; cursor:pointer;}
+.skill p{background-color:#fff3a5; position:absolute; top:35px; left:25px; width:300px;word-break:break-all;padding:10px; z-index:19; text-align: left;display:none;}
+.red{color:#ff0000;}
+.s{color:#3d8bff;}
+
+/*·Ö¸îÏß*/
+.jns-menu{ float:left; margin: 10px; }
+.jns-menu li{ border-radius:5px; background:#FFF; width:60px; height:32px; line-height:32px; text-align:center; margin-right:20px; float:left}
+.jinengshu { width:1120px; background:rgb(25, 24, 22);color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; overflow-y:hidden}
+.jns-content{ float:left }
+.zhuanzhi span{display:inline-block;* display:inline;zoom:1; background:#CFF; padding:10px; margin-right:10px; display:none}

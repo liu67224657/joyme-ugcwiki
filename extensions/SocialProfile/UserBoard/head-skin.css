@@ -1,0 +1,201 @@
+.user-vip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    height: 40%;
+    background: url("../images/new-img/images/m-vip-icon.png");
+    background-size: 100%;
+    z-index: 5;
+}
+.user-login cite,.link-set,.user-intro-con .user-sign{ background: url("../images/new-img/images/small-icon-together.png") no-repeat;}
+.user-login cite{background-position: -116px -0px; width: 28px; height: 28px; display: block; position: absolute;
+    bottom:4px; right:2px; z-index: 2;}
+.head-dec-def,.luojiaoye-def,.fensi-def,.focus-def,.dianzan-def,.chat-xt-def,.info-dec-def{ width: 100%; height: 100%; display: block; position: absolute; left: -10%; top: -10%; padding:10%; 
+    background-position: center center;
+    background-repeat: no-repeat; background-size: 100%;box-sizing: content-box;
+}
+.head-dec-def,.info-dec-def{
+    background-image: url("../images/new-img/images/info-user.png");
+}
+.head-dec-01,.luojiaoye-dec-01,.fensi-dec-01,.focus-dec-01,.chat-xt-01,.info-dec-01{
+    background-image: url("../images/skin-images/d-head_02.png");
+    left: -2%; top: -2%; padding:2%;z-index: 1;
+}
+.head-dec-02,.luojiaoye-dec-02,.fensi-dec-02,.focus-dec-02,.chat-xt-02,.info-dec-01{background-image: url("../images/skin-images/d-head_06.png");
+    left: -2%; top: -2%; padding:2%;z-index: 1;
+}
+.head-dec-03,.luojiaoye-dec-03,.fensi-dec-03,.focus-dec-03,.chat-xt-03,.info-dec-01{background-image: url("../images/skin-images/d-head_09.png");
+    left: -2%; top: -2%; padding:2%;z-index: 1;
+}
+.head-dec-04,.luojiaoye-dec-04,.fensi-dec-04,.focus-dec-04,.chat-xt-04,.info-dec-01{background-image: url("../images/skin-images/d-head_12.png");
+    left: -2%; top: -2%; padding:2%;z-index: 1;
+}
+.head-dec-05,.luojiaoye-dec-05,.fensi-dec-05,.focus-dec-05,.chat-xt-05,.info-dec-01{ 
+    background-image: url("../images/skin-images/d-head_15.png");z-index: 1;
+}
+.head-dec-06,.luojiaoye-dec-06,.fensi-dec-06,.focus-dec-06,.chat-xt-06,.info-dec-01{ 
+    background-image: url("../images/skin-images/d-head_18.png");z-index: 1;
+}
+.head-dec-07,.luojiaoye-dec-07,.fensi-dec-07,.focus-dec-07,.chat-xt-07,.info-dec-01{ 
+    background-image: url("../images/skin-images/d-head_21.png");z-index: 1;
+}
+
+
+/*********************我的关注section 皮肤设置*******************/
+.fans-con a cite,.int-tj-l cite,.user-img cite,.list-item-l cite,.user-int-mess a,.user-login{ position: relative; border-radius: inherit;-webkit-border-radius:inherit; border: none; overflow: visible;}
+.fans-con a cite img,.int-tj-l cite img,.user-img cite img,.user-int-mess a img,.list-item-l cite img,.user-int-mess a img,.user-int-mess a img{ border-radius: 50%; -webkit-border-radius: 50%;}
+
+/****************聊天对话头像装饰******************/
+
+.talk-r cite img, .talk-l cite img{border-radius:50%;}
+
+/**************************聊天气泡窗**********************/
+.talk-con .chat-group-def{ color: #2a2a2a; position: relative;}
+.talk-con .chat-group-def:before{ border-left: 0; border-top: 0; }
+.talk-con .chat-group-icon-def{ position: absolute; display: block;}
+.talk-con .chat-group-04{padding-left: 1.4em;  background-color: #ddeef7;border: 1px solid #3d3d3d;}
+.talk-con .chat-group-04:before{background-color: #ddeef7;border-right: 1px solid #3d3d3d; border-bottom:1px solid #3d3d3d;}
+.talk-con .chat-group-04 i.icon1{ width: 42px; height: 20px;left: -23px; bottom: -2px;
+    background: url("../images/skin-images/chat/1star-chat-01-01.png") no-repeat;
+}
+.talk-con .chat-group-03{ padding-left: 1.2em; background-color: #f9f2ff;border: 1px solid #794cb6;}
+.talk-con .chat-group-03:before{background-color: #f9f2ff;border-right: 1px solid #794cb6; border-bottom:1px solid #794cb6;}
+.talk-con .chat-group-03 i.icon1{
+    width: 27px;
+    height: 29px;
+    left: -10px;
+    bottom: -6px;
+    background: url("../images/skin-images/chat/1star-chat-02-01.png") no-repeat;
+}
+
+.talk-con .chat-group-02{ background-color: #f2fcff;border: 1px solid #74b1ef;}
+.talk-con .chat-group-02:before{background-color: #f2fcff;border-right: 1px solid #74b1ef; border-bottom:1px solid #74b1ef;}
+.talk-con .chat-group-02 i.icon1{
+    width: 21px;
+    height: 25px;
+    left: -17px;
+    top:-12px;
+    background: url("../images/skin-images/chat/1star-chat-03-01.png") no-repeat;
+}
+.talk-con .chat-group-02 i.icon2{
+    width: 21px;
+    height: 26px;
+    right: -17px;
+    top:-14px;
+    background: url("../images/skin-images/chat/1star-chat-03-02.png") no-repeat;
+}
+
+.talk-con .chat-group-01{ background-color: #f9f2ff;border: 1px solid #794cb6;}
+.talk-con .chat-group-01:before{background-color: #f9f2ff;border-right: 1px solid #794cb6; border-bottom:1px solid #794cb6;}
+.talk-con .chat-group-01 i.icon1{
+    width: 14px;
+    height: 16px;
+    left: -6px;
+    top:-8px;
+    background: url("../images/skin-images/chat/1star-chat-04-01.png") no-repeat;
+}
+.talk-con .chat-group-01 i.icon2{
+    width: 14px;
+    height: 16px;
+    right: -6px;
+    top:-8px;
+    background: url("../images/skin-images/chat/1star-chat-04-02.png") no-repeat;
+}
+
+.talk-con .chat-group-05{
+    padding: 9px 20px; 
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(226, 241, 253, 1)), to(rgba(152, 211, 252, 1)));
+    border: 1px solid #89c7f8;}
+.talk-con .chat-group-05:before{background-color: #c5e6fe;border-right: 1px solid #89c7f8; border-bottom:1px solid #89c7f8;}
+.talk-con .chat-group-05 i.icon1{
+    width: 53px;
+    height: 16px;
+    left: -1px;
+    top:-11px;
+    background: url("../images/skin-images/chat/2star-chat-01-01.png") no-repeat;
+}
+.talk-con .chat-group-05 i.icon2{
+    width: 100%;
+    height: 6px;
+    left: 0;
+    top: auto;
+    bottom: -2px;
+    background: url("../images/skin-images/chat/2star-chat-01-02.png") no-repeat;
+    background-size: 100% 100%;
+}
+.talk-con .chat-group-05 i.icon3{
+    width: 56px;
+    height: 13px;
+    right: -16px;
+    bottom: -6px;
+    background: url("../images/skin-images/chat/2star-chat-01-03.png") no-repeat;
+}
+
+.talk-con .chat-group-06{
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 251, 242, 1)), to(rgba(255, 224, 171, 1)));
+    border: 1px solid #ffe0ab;}
+.talk-con .chat-group-06:before{background-color: #ffeed3;border-right: 1px solid #ffe0ab; border-bottom:1px solid #ffe0ab;}
+.talk-con .chat-group-06 i.icon1{
+    width: 12px;
+    height: 11px;
+    left: -2px;
+    top:-5px;
+    background: url("../images/skin-images/chat/2star-chat-02-01.png") no-repeat;
+}
+.talk-con .chat-group-06 i.icon2{
+    width: 22px;
+    height: 16px;
+    right: -2px;
+    top:-7px; bottom: auto;
+    background: url("../images/skin-images/chat/2star-chat-02-02.png") no-repeat;
+}
+.talk-con .chat-group-06 i.icon3{
+    width: 25px;
+    height: 15px;
+    left: 0px;
+    top:auto; bottom: -7px;
+    background: url("../images/skin-images/chat/2star-chat-02-03.png") no-repeat;
+}
+.talk-con .chat-group-06 i.icon4{
+    width: 8px;
+    height: 8px;
+    right: 0px;
+    top:auto; bottom: -6px;
+    background: url("../images/skin-images/chat/2star-chat-02-04.png") no-repeat;
+}
+
+.talk-con .chat-group-07{
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(218, 212, 255, 1)), to(rgba(181, 188, 254, 1)));
+    border: 1px solid #68677f; background-color: #bcc1ff;}
+.talk-con .chat-group-07:before{background-color: #bbc0ff;border-right: 1px solid #68677f; border-bottom:1px solid #68677f;}
+.talk-con .chat-group-07 i.icon1{
+    width: 23px;
+    height: 14px;
+    left: -8px;
+    top:-5px; z-index: 1;
+    background: url("../images/skin-images/chat/3star-chat-01-01.png") no-repeat;
+}
+.talk-con .chat-group-07 i.icon2{
+    width: 23px;
+    height: 14px;
+    right: -8px;
+    top:-4px; z-index: 1;
+    background: url("../images/skin-images/chat/3star-chat-01-02.png") no-repeat;
+}
+.talk-con .chat-group-07 i.icon3{
+    width: 33px;
+    height: 17px;
+    left:50%; top:-11px; z-index: 1; margin-left:-12px;background: url("../images/skin-images/chat/3star-chat-01-04.png") no-repeat;
+}
+.talk-con .chat-group-07 i.icon4{ width: 100%; height: 4px; top: 0; left: 0; z-index:0;background-image: url("../images/skin-images/chat/3star-chat-01-03.png"); background-repeat: repeat-x;}
+/*************************聊天对话左侧***********************/
+.talk-con .talk-l .chat-group-def:before{ border-right: 0; border-bottom: 0; }
+.talk-con .talk-l .chat-group-icon-def{ position: absolute; display: block;}
+.talk-con .talk-l .chat-group-01:before{border-left: 1px solid #3d3d3d; border-top:1px solid #3d3d3d;}
+.talk-con .talk-l .chat-group-02:before{border-left: 1px solid #794cb6; border-top:1px solid #794cb6;}
+.talk-con .talk-l .chat-group-03:before{border-left: 1px solid #74b1ef; border-top:1px solid #74b1ef;}
+.talk-con .talk-l .chat-group-04:before{border-left: 1px solid #794cb6; border-top:1px solid #794cb6;}
+.talk-con .talk-l .chat-group-05:before{border-left: 1px solid #89c7f8; border-top:1px solid #89c7f8;}
+.talk-con .talk-l .chat-group-06:before{border-left: 1px solid #ffe0ab; border-top:1px solid #ffe0ab;}
+.talk-con .talk-l .chat-group-07:before{border-left: 1px solid #68677f; border-top:1px solid #68677f;}

@@ -1,0 +1,27 @@
+{
+  "name": "quickmessage",
+  "author": [
+    "Shixin"
+  ],
+  "url": "https://www.mediawiki.org/wiki/Extension:quickmessage",
+  "descriptionmsg": "quickmessage",
+  "license-name": "GPL-2.0+",
+  "type": "specialpage",
+  "GroupPermissions": {
+    "bureaucrat": {
+      "quickmessage": true
+    }
+  },
+  "AvailableRights": [
+    "quickmessage"
+  ],
+  "SpecialPages": {
+    "QuickMessage": "SpecialQuickMessage"
+  },
+  "AutoloadClasses": {
+    "SpecialQuickMessage": "specials/SpecialQuickMessage.php",
+    "QuickUserMessageClass":"QuickUserMessageClass.php",
+    "QuickUserMessageItemClass":"QuickUserMessageItemClass.php",
+    "QuickMessageAgainSend":"QuickMessageSend.php"
+  }
+}

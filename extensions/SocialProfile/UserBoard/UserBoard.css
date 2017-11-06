@@ -1,0 +1,118 @@
+h1#firstHeading{display:none;}
+.talking-box{height:730px;padding:0 50px;}
+.talking-box  h3{height:58px;line-height:50px;}
+.talking-box  h3 a{color:#2a2a2a;font-size:14px;line-height: 22px;}
+.talking-box  h3 a i{font-size:16px;}
+.talk-box{border:1px solid #efefef;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;/*height:620px;*/overflow: hidden;}
+.talk-tit{font-size:0;padding:15px 30px;background-color: #f5f5f5;}
+.talk-tit cite,.talk-tit span{display: inline-block;vertical-align: middle;font-size:16px;color:#2a2a2a;}
+.talk-tit cite{width:38px;height:38px;line-height: 38px;text-align: center;background-color: #3988fb;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;margin-right:10px;}
+.talk-tit cite .fa{color:#fff;vertical-align: 1px;}
+.talk-tit span a{color:#3988fb;}
+.talk-tit-box p{color:#989898;font-size:14px;text-align: center;background-color: #fed5db;line-height: 22px;padding:5px 0;}
+.talk-cont-con{height:366px;overflow-y:scroll;}
+.talk-r,.talk-l{font-size:0;position: relative;min-height:55px;margin-bottom:10px;}
+.talk-r{text-align: right;padding:0 85px 0 30px;}
+.talk-l{text-align: left;padding:0 30px 0 85px;}
+.talk-r cite,.talk-l cite{vertical-align: top;width:55px;height:55px;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;position: absolute;top:0px;}
+.talk-l cite{left:30px;}
+.talk-r cite img,.talk-l cite img{width:100%;height:100%;}
+.talk-r cite{right:30px;}
+.talk-r>div,.talk-l div{display: inline-block;position: relative;vertical-align: middle;line-height: 22px;
+	font-size:14px;padding:9px ;text-align: left;border-radius: 5px;-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;margin-top:7px;
+	word-wrap:break-word;word-break:break-all;-webkit-box-shadow: 0 1px 1px #f6f6f6;-moz-box-shadow: 0 1px 1px #f6f6f6;
+	box-shadow: 0 1px 1px #f6f6f6;
+	max-width: 554px;
+}
+.talk-l div{margin-left:10px;background-image: -webkit-linear-gradient(bottom, #f2f2f2, #fff);background-image: -moz-linear-gradient(bottom, #f2f2f2, #fff);background-image: -o-linear-gradient(bottom, #f2f2f2, #fff);background-image: -ms-linear-gradient(bottom, #f2f2f2, #fff);background-image: linear-gradient(to top, #f2f2f2, #fff);background-color: #fff;color:#2a2a2a;border:1px solid #e6e6e6;}
+.talk-r>div{margin-right:10px;background-color: #3988fb;color:#fff;border:1px solid #3988fb;}
+.talk-r>div:before,.talk-l>div:before{content: "";position: absolute;top:15px;width:12px;height:12px;-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-ms-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
+.talk-r>div:before{right:-7px;background: #3988fb;border-top:1px solid #3988fb;border-left:1px solid #3988fb;-moz-border-top:1px solid #3988fb;-moz-border-left:1px solid #3988fb;-ms-border-top:1px solid #3988fb;-ms-border-left:1px solid #3988fb;-o-border-top:1px solid #3988fb;-o-border-left:1px solid #3988fb;-webkit-border-top:1px solid #3988fb;-webkit-border-left:1px solid #3988fb;}
+.talk-l>div:before{left:-7px;background: #f9f9f9;border-top:1px solid #e6e6e6;border-left:1px solid #e6e6e6;-webkit-border-top:1px solid #e6e6e6;-webkit-border-left:1px solid #e6e6e6;-moz-border-top:1px solid #e6e6e6;-moz-border-left:1px solid #e6e6e6;-ms-border-top:1px solid #e6e6e6;-ms-border-left:1px solid #e6e6e6;}
+.talk-r>div span{display: block;position: absolute;top:50%;}
+.talk-r>div span.send-error{width:24px;height:24px;background: url(../images/send-error.svg) no-repeat;margin-top:-12px;left:-30px;cursor:pointer;}
+.talk-r>div span.sending{width:16px;height:16px;background: url(../images/sending.svg) no-repeat;margin-top:-8px;animation: sending .8s infinite linear;-webkit-animation: sending .8s infinite linear;-ms-animation: sending .8s infinite linear;-moz-animation: sending .8s infinite linear;-o-animation: sending .8s infinite linear;left:-24px; }
+@keyframes sending{
+	0%{transform: rotate(0)}
+	50%{transform: rotate(180deg)}
+	100%{transform: rotate(360deg)}
+}
+@-webkit-keyframes sending{
+	0%{transform: rotate(0)}
+	50%{transform: rotate(180deg)}
+	100%{transform: rotate(360deg)}
+}
+@-moz-keyframes sending{
+	0%{transform: rotate(0)}
+	50%{transform: rotate(180deg)}
+	100%{transform: rotate(360deg)}
+}
+@-ms-keyframes sending{
+	0%{transform: rotate(0)}
+	50%{transform: rotate(180deg)}
+	100%{transform: rotate(360deg)}
+}
+@-o-keyframes sending{
+	0%{transform: rotate(0)}
+	50%{transform: rotate(180deg)}
+	100%{transform: rotate(360deg)}
+}
+.talk-time,.more-new {text-align: center;color:#d9d7d7;padding:5px 0;}
+.more-new {padding:10px 0;}
+.more-new a{color:#777;}
+.talk-text{position:relative; z-index:2; background-color: #f5f5f5;border-top:1px solid #efefef;padding:0 30px 10px 30px;/*height:155px;*/}
+.talk-text-bq{padding:10px 0;}
+.talk-text-bq i{font-size:20px;cursor: pointer;position:relative;}
+.talk-text-bq i #commentImg{ position: absolute;top: 0;left: 0;width: 100%;}
+.talk-input{font-size:0;}
+.talk-input textarea{resize: none;width:100%;height:62px; padding:10px;font-size:14px;border:1px solid #efefef;}
+.talk-send{position: relative;padding-top:10px;float:right;z-index:100;}
+.talk-box .i-error{height:30px; line-height: 30px;font-size:12px;color:red;display: none;position:absolute;bottom:10px;left:30px;}
+.talk-box.on .i-error{display: block;}
+.talk-btn{width:90px;height:30px;line-height: 28px;text-align: center;background-color: #fff;color:#2a2a2a;border:1px solid #c1c1c1;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.cancel-flo{position: absolute;top:0;right:0;bottom:0;left:0;background-color: rgba(0,0,0,.5);color:#fff;font-size:14px;text-align: center;line-height: 154px;display: none;}
+.cancel-flo.on{display: block;z-index:999;}
+
+/*评论头部*/
+.talk-btn-box{background:#fff;border:1px solid #d2d2d2;width: 377px;
+    padding-right: 5px;position:absolute;z-index:99;bottom:32px;left:-14px;webkit-box-shadow: 0 0 3px rgba(125,125,125,.36);-moz-box-shadow: 0 0 3px rgba(125,125,125,.36);box-shadow: 0 0 3px rgba(125,125,125,.36);display:none;font-size:12px;height:260px}
+.talk-btn-box>span{width:12px;height:10px;position:absolute;bottom:-7px;left:20px;background-image:url(../images/talk-icon-face.png);background-repeat:no-repeat;background-position:0 -50px;}
+.talk-btn-piccont{width:175px;padding:10px;}
+/*表情*/
+.facecont-tit{width:100%;text-align:left;display:block;margin:5px 0;}
+.facecont-tit em{display:inline-block;*display:inline;*zoom:1;padding:1px 10px;font-size:12px;color:#6b6b6b;margin-right:10px;}
+.facecont-tit em.on{background:#4faadd;color:#fff;}
+.facecont-cont{height:192px;}
+.facecont-cont div{display:none;}
+.facecont-cont div.on{display:block;font-size:0;}
+.facecont-cont span{width:32px;height:32px;padding-left:5px;padding-top:5px;dispaly:inlin-block;vertical-align:middle;}
+.facecont-cont span img{width:32px;height:32px;}
+/*图片*/
+.fa-picture-o{width:25px;height:20px;}
+.fa-picture-o input{display: block;height: 100%;width: 100%;opacity: 0;}
+.user-board-message img{max-width:100%;}
+.moxie-shim {opacity: 0;}
+@media(max-width:991px){
+	.talking-box{padding:0;}
+	.talk-tit{padding:5px 10px;}
+	.talk-tit cite .fa{padding:0;}
+	.talk-r{padding:0 65px  0 10px;}
+	.talk-l{padding:0 10px 0 65px;}
+	.talk-r cite{right:10px;}
+	.talk-l cite{left:10px;}
+	.talk-text{padding:9px 10px 9px;height:auto;position:relative;}
+	.talk-text-bq{padding:5px 10px;position:absolute;left:0;right:0;top:50px;z-index:100;}
+	.talk-input{width:100%;font-size:0;}
+	.talk-text-bq i{position:static;}
+	.talk-box.on .talk-send{padding-bottom:30px;}
+	.talk-box.on .i-error{left:0;position:relative;bottom:0;margin-top:40px;z-index:9;}
+	.talk-input{width:100%;font-size:0;}
+	.talk-input textarea{height:30px;padding:3px 5px;border-radius: 5px;font-size:14px;}
+	.talking-box,.talk-box{height:auto;}
+    .talk-btn-box{width:96%;left:2%;bottom:51px;overflow-y:scroll;}
+    .cancel-flo{line-height: 84px;}
+    .facecont-tit em{padding:8px 10px;}
+	.talk-r>div.send-error:after{ background-size: 12px;background-position: right center;}
+	.talk-r>div.sending:after{ background-size: 100%;background-position: right center;}
+}

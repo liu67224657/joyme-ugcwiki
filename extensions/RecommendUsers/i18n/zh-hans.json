@@ -1,0 +1,20 @@
+{
+  "@metadata": {
+	"authors": [
+	  "Shixin"
+	]
+  },
+  "recommendusers":"大神推荐",
+  "recommendusers_submit":"添加",
+  "recommendusers_exists_no":"没有找到此用户",
+  "recommendusers_success":"添加成功",
+  "recommendusers_error":"添加失败",
+  "recommendusers_empty":"不能为空值",
+  "recommendusers_delete":"删除",
+  "recommendusers_confirm_delete":"确认删除吗？",
+  "recommendusers_return":"返回",
+  "recommendusers_delete_true":"确认删除",
+  "recommendusers_delete_success":"删除成功",
+  "recommendusers_user_existing":"已存在，不能重复添加",
+  "right-recommendusers":"大神推荐"
+}

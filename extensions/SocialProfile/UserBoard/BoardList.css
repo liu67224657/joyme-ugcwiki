@@ -1,0 +1,21 @@
+h1#firstHeading{display:none;}
+.sixin-list.list-item li{padding:20px 30px 14px 0;position: relative;}
+.sixin-list.list-item a{display: block;position:relative;width:100%;}
+.sixin-list .list-item-l{position: absolute;top:0;left:0;width:44px;display: block;}
+.sixin-list .list-item-r{width:auto;margin-left:55px;position: relative;display: block;}
+.sixin-list.list-item .del-icon{position: absolute;top:20px;right:0;}
+.del-icon{padding:10px; position: absolute;top:0;right:-1px;width:9px;height:9px;background-image: url(../images/icon-sprit.png);background-repeat: no-repeat;background-position: -43px -48px;cursor: pointer;}
+.sixin-list.list-item .news-count{ position: absolute;top:0;right:-8px; padding: 0 7px; z-index: 2; font-size: 12px; color: #fff; line-height: 18px; background: #ff5050; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px;  overflow: hidden; }
+.sixin-list.list-item .news-count.on{padding-right:12px;}
+.sixin-list.list-item .news-count:after{display: none;}
+.sixin-list.list-item .news-count.on:after{content: "+";position: absolute;top:1px;right:1px;display: block;}
+.sixin-list .item-r-text{width:100%;line-height: 24px; overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+@media(max-width:991px){
+	.sixin-list.list-item li{padding:10px 24px 7px 0;}
+	.sixin-list.list-item .del-icon{top:10px;}
+	.sixin-list-box  .item-r-name .time-stamp{width:100px;overflow: hidden;height:22px;}
+}
+
+
+

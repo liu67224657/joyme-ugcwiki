@@ -1,0 +1,215 @@
+/* ========================================= */
+/* Navbox 导航盒默认样式 */
+/* ========================================= */
+/* Default style for navigation boxes */
+.wiki-navbox {                     /* Navbox container style */
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    width: 100%;
+    clear: both;
+    font-size: 88%;
+    text-align: center;
+    padding: 1px;
+    margin: 1em auto 0;       /* Prevent preceding content from clinging to navboxes */
+}
+.wiki-navbox .wiki-navbox {
+    margin-top: 0;            /* No top margin for nested navboxes */
+}
+.wiki-navbox + .wiki-navbox {
+    margin-top: -1px;         /* Single pixel border between adjacent navboxes */
+}
+.wiki-navbox-inner,
+.wiki-navbox-subgroup {
+    width: 100%;
+}
+.wiki-navbox-group,
+.wiki-navbox-title,
+.wiki-navbox-abovebelow {
+    padding: 0.25em 1em;      /* Title, group and above/below styles */
+    line-height: 1.5em;
+    text-align: center;
+}
+th.wiki-navbox-group {             /* Group style */
+    white-space: nowrap;
+    /* @noflip */
+    text-align: right;
+}
+.wiki-navbox,
+.wiki-navbox-subgroup {
+    background: #fdfdfd;      /* Background color */
+}
+.wiki-navbox-list {
+    line-height: 1.5em;
+    border-color: #fdfdfd;    /* Must match background color */
+}
+.wiki-navbox th,
+.wiki-navbox-title {
+    background: #ccccff;      /* Level 1 color */
+}
+.wiki-navbox-abovebelow,
+th.wiki-navbox-group,
+.wiki-navbox-subgroup .wiki-navbox-title {
+    background: #ddddff;      /* Level 2 color */
+}
+.wiki-navbox-subgroup .wiki-navbox-group,
+.wiki-navbox-subgroup .wiki-navbox-abovebelow {
+    background: #e6e6ff;      /* Level 3 color */
+    color: #000;
+}
+.wiki-navbox-even {
+    background: #f7f7f7;      /* Even row striping */
+}
+.wiki-navbox-odd {
+    background: transparent;  /* Odd row striping */
+}
+.wiki-navbox .hlist td dl,
+.wiki-navbox .hlist td ol,
+.wiki-navbox .hlist td ul,
+.wiki-navbox td.hlist dl,
+.wiki-navbox td.hlist ol,
+.wiki-navbox td.hlist ul {
+    padding: 0.125em 0;       /* Adjust hlist padding in navboxes */
+}
+
+/* Default styling for Navbar template */
+.wiki-navbar {
+    display: inline;
+    font-size: 88%;
+    font-weight: normal;
+}
+.wiki-navbar ul {
+    display: inline;
+    white-space: nowrap;
+}
+.mw-body-content .wiki-navbar ul {
+    line-height: inherit;
+}
+.wiki-navbar li {
+    word-spacing: -0.125em;
+}
+.wiki-navbar.mini li abbr[title] {
+    font-variant: small-caps;
+    border-bottom: none;
+    text-decoration: none;
+    cursor: inherit;
+}
+/* Navbar styling when nested in infobox and navbox */
+.infobox .wiki-navbar {
+    font-size: 100%;
+}
+.wiki-navbox .wiki-navbar {
+    display: block;
+    font-size: 100%;
+}
+.wiki-navbox-title .wiki-navbar {
+    /* @noflip */
+    float: left;
+    /* @noflip */
+    text-align: left;
+    /* @noflip */
+    margin-right: 0.5em;
+    width: 6em;
+}
+
+/* 'show'/'hide' buttons created dynamically by the CollapsibleTables javascript
+   in [[MediaWiki:Common.js]] are styled here so they can be customised. */
+.collapseButton {
+    /* @noflip */
+    float: right;
+    font-weight: normal;
+    /* @noflip */
+    margin-left: 0.5em;
+    /* @noflip */
+    text-align: right;
+    width: auto;
+}
+/* In navboxes, the show/hide button balances the v·d·e links
+   from [[Template:Navbar]], so they need to be the same width. */
+.wiki-navbox .collapseButton {
+    width: 6em;
+}
+
+/* Styling for JQuery makeCollapsible, matching that of collapseButton */
+.mw-collapsible-toggle {
+    font-weight: normal;
+    /* @noflip */
+    text-align: right;
+}
+.wiki-navbox .mw-collapsible-toggle {
+    width: 6em;
+}
+
+/* Style for horizontal lists (separator following item).
+   @source mediawiki.org/wiki/Snippets/Horizontal_lists
+   @revision 8 (2016-05-21)
+   @author [[User:Edokter]]
+ */
+.hlist dl,
+.hlist ol,
+.hlist ul {
+    margin: 0;
+    padding: 0;
+}
+/* Display list items inline */
+.hlist dd,
+.hlist dt,
+.hlist li {
+    margin: 0;
+    display: inline;
+}
+/* Display nested lists inline */
+.hlist.inline,
+.hlist.inline dl,
+.hlist.inline ol,
+.hlist.inline ul,
+.hlist dl dl, .hlist dl ol, .hlist dl ul,
+.hlist ol dl, .hlist ol ol, .hlist ol ul,
+.hlist ul dl, .hlist ul ol, .hlist ul ul {
+    display: inline;
+}
+/* Hide empty list items */
+.hlist .mw-empty-li {
+    display: none;
+}
+/* Generate interpuncts */
+.hlist dt:after {
+    content: ": ";
+}
+.hlist dd:after,
+.hlist li:after {
+    content: " · ";
+    font-weight: bold;
+}
+.hlist dd:last-child:after,
+.hlist dt:last-child:after,
+.hlist li:last-child:after {
+    content: none;
+}
+/* Add parentheses around nested lists */
+.hlist dd dd:first-child:before, .hlist dd dt:first-child:before, .hlist dd li:first-child:before,
+.hlist dt dd:first-child:before, .hlist dt dt:first-child:before, .hlist dt li:first-child:before,
+.hlist li dd:first-child:before, .hlist li dt:first-child:before, .hlist li li:first-child:before {
+    content: " (";
+    font-weight: normal;
+}
+.hlist dd dd:last-child:after, .hlist dd dt:last-child:after, .hlist dd li:last-child:after,
+.hlist dt dd:last-child:after, .hlist dt dt:last-child:after, .hlist dt li:last-child:after,
+.hlist li dd:last-child:after, .hlist li dt:last-child:after, .hlist li li:last-child:after {
+    content: ")";
+    font-weight: normal;
+}
+/* Put ordinals in front of ordered list items */
+.hlist ol {
+    counter-reset: listitem;
+}
+.hlist ol > li {
+    counter-increment: listitem;
+}
+.hlist ol > li:before {
+    content: " " counter(listitem) "\a0";
+}
+.hlist dd ol > li:first-child:before,
+.hlist dt ol > li:first-child:before,
+.hlist li ol > li:first-child:before {
+    content: " (" counter(listitem) "\a0";
+}

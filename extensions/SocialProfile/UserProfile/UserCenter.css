@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+.tab-box .tab-con>div{display: none;}
+.tab-box .tab-con>div.on{display: block;}
+
+.pag-hor-20{padding:0 20px;}
+.personal-info>div{background-image: url(../images/info-bg.jpg);height:273px;background-position: center top;margin-bottom:10px;-webkit-border-radius:2px;-ms-border-radius:2px;-moz-border-radius:2px;-o-border-radius:2px;border-radius:2px;}
+.col-md-10.info-r,.col-md-2.look-con{float: right;}
+.look-con{margin-top:25px;}
+.look-con a{display: block;margin:0 auto;background-color:#41bdff;width:80px;height:24px;text-align:center;line-height: 24px;color:#fff;font-size:14px;margin-bottom:10px;-webkit-border-radius:30px;-moz-border-radius:30px;-o-border-radius:30px;-ms-border-radius:30px;border-radius:30px;background-image: url(../images/follow-icon.png);background-repeat: no-repeat;background-position:center bottom;}
+.look-con a.un-link{background: #e8e8e8;color:#565656;}
+.look-con a i{font-style:normal;}
+.info-edit-num{display: block; width:190px;height:190px;padding-top:40px; background-image: url(../images/edit-num.png);background-repeat: no-repeat;margin:70px 0 0 -20px;text-decoration: none;float: left;text-decoration: none !important;}
+.info-edit-num cite{display: block;text-align:center;color:#fff;font-size:14px;font-style: normal;margin-bottom:10px;}
+.count-num a{color:#fff !important;display: inline-block;}
+cite.count-num font{font-size:34px;line-height: 40px;display: block;}
+.info-edit-num cite i{font-style: normal;display: inline-block;font-size:34px;}
+cite.day-num font{font-size:16px;display: block;}
+cite.day-num font i{font-size:22px;}
+.info-user{margin:25px 50px 0 0;}
+.info-user,.info-user>div{float: right;}
+.user-login{width:134px;height:134px;padding:6px;overflow: hidden;-webkit-border-radius:50%;-moz-border-radius:50%;-o-border-radius:50%;-ms-border-radius:50%;border-radius:50%;display: block;background-image: url(../images/info-user.png);background-repeat: no-repeat;background-size: 100%;}
+.user-login img{display: block;width:120px;height:120px;-webkit-border-radius:50%;-moz-border-radius:50%;-o-border-radius:50%;-ms-border-radius:50%;border-radius:50%;overflow: hidden;}
+
+.user-des{display:block;overflow: hidden;font-size:0;text-align: center;margin:8px auto 8px;font-style: normal;}
+
+.nickname,.link-set{display: inline-block;vertical-align: middle;}
+.nickname{ text-align: center;font-size:16px;color:#2a2a2a;line-height: 22px;max-width:100px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.link-set{color:#468ffb;font-size:14px;padding:0 5px;line-height: 22px;}
+
+.user-intr{display: block;font-size:12px;color:#575757;width:134px;text-align:left;word-wrap:break-word;word-break: break-all;max-height:34px;overflow: hidden;}
+.user-intr:active{color:#575757;}
+/*关注、私信*/
+.gz-sx-con{text-align: center;font-size:0;margin-top:10px;}
+.gz-icon,.sx-icon{display: inline-block;vertical-align: middle;width: 50px; height: 24px;line-height: 22px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;text-align: center;font-size:14px;margin:0 5px;}
+.gz-icon{ color:#fff;   background-color: #2a2a2a; -webkit-box-shadow: inset 0 0 1px rgba(0,228,255,.24); -moz-box-shadow: inset 0 0 1px rgba(0,228,255,.24); box-shadow: inset 0 0 1px rgba(0,228,255,.24); border: solid 1px #44a0f9; background-image: -webkit-linear-gradient(top, #4eb9f9, #4397f7); background-image: -moz-linear-gradient(top, #4eb9f9, #4397f7); background-image: -o-linear-gradient(top, #4eb9f9, #4397f7); background-image: -ms-linear-gradient(top, #4eb9f9, #4397f7); background-image: linear-gradient(to bottom, #4eb9f9, #4397f7); }
+.sx-icon{ color:#575757 !important; border: solid 1px #e8e8e8; background-image: -webkit-linear-gradient(bottom, #efefef, #fff); background-image: -moz-linear-gradient(bottom, #efefef, #fff); background-image: -o-linear-gradient(bottom, #efefef, #fff); background-image: -ms-linear-gradient(bottom, #efefef, #fff); background-image: linear-gradient(to top, #efefef, #fff); }
+
+/*内容区域 开始*/
+.trends-nav{border-bottom:1px solid #e5e5e5;}
+.trends-nav a{font-size:16px;color:#555;padding:22px 5px 15px;line-height: 16px;margin-right:15px;display: block;float: left;position: relative;}
+.trends-nav a.on,.trends-nav a:hover{color:#3988fb;text-decoration: none;}
+.trends-nav a.on i,.trends-nav a:hover i{display: block;width:100%;height:2px;background: #3988fb;position: absolute;bottom:-1px;left:0;}
+.trends-nav a.on i:after,.trends-nav a:hover i:after{content: "";width:0;height:0;border-bottom:4px solid #3988fb;border-left:4px solid transparent;border-right:4px solid transparent;position: absolute;bottom:1px;left:50%;margin-left:-4px;}
+
+/*我的wiki  开始*/
+
+.list-tit{color:#2a2a2a;font-size:16px;line-height: 30px;margin:15px 0;}
+.list-tit i{width:30px;height:26px;}
+.list-tit i,.int-tj cite i,.glwiki-ti,.gxwiki-tit i,.gzwiki-tit i{background-image: url(../images/new-icon-sprit.png);background-repeat: no-repeat;display: block;}
+.list-tit i,.int-tj cite i{float: left;margin-right:8px;}
+.hotwiki-tit i{background-position: -98px -78px;}
+.glwiki-tit i{background-position:0 -78px;}
+.gxwiki-tit i{background-position: -34px -78px;}
+.gzwiki-tit i{background-position: -66px -78px;}
+.manage-item{padding-bottom:15px;margin:0 !important;font-size:0;}
+.manage-item li{position: relative;background: #FFF;z-index: 99;padding:0 10px;margin:0 0 15px 0;float: none !important;display: inline-block;vertical-align: top;}
+
+/*去掉*/
+.manage-item li>a{width:100%;margin:0 auto;font-size:0;text-align: center;padding-top:24px;position: relative;position: relative;z-index: 99;border:1px solid #e8e8e8;min-height:250px;position: relative;z-index: 99; display: block;}
+.manage-item li>a:before{content: "";height:100px;width:100%;background-color:#e1e6ef ;position: absolute;top:0;left:0;z-index: 1;}
+/*去掉 结束*/
+.manage-item li>a,.manage-wiki{width:100%;margin:0 auto;font-size:0;text-align: center;position: relative;position: relative;z-index: 99;border:1px solid #e8e8e8;min-height:250px;position: relative;z-index: 99; display: block;padding-bottom:20px;}
+.manage-item li>a:before,.manage-wiki:before{content: "";height:100px;width:100%;background-color:#e1e6ef ;position: absolute;top:0;left:0;z-index: 1;}
+.mg-wiki-main{margin-top:24px;display: block;}
+.manage-item li b{display: inline-block;vertical-align: middle;color:#fff;background-color: #ff5c3b;padding:5px 10px;-webkit-border-radius: 10px;-moz-border-radius: 10px;-ms-border-radius: 10px;-o-border-radius: 10px;border-radius: 10px;font-size:12px;line-height: 12px;margin-bottom:15px;}
+.manage-item li b,.manage-item li cite{position: relative;z-index: 99;}
+.manage-item li cite,.manage-item li font,.manage-item li span{display: block;margin:0 auto;}
+.manage-item li cite{width:72px;height:72px;-webkit-border-radius: 10px;-moz-border-radius: 10px;-ms-border-radius: 10px;-o-border-radius: 10px; border-radius: 10px;overflow: hidden;margin-bottom:10px;position: relative;}
+.manage-item li cite img{width:100%;height:100%;}
+.manage-item li cite i{position: absolute;bottom:0;right:0;background-position: 0 -53px;width:56px;height:18px;line-height: 18px;-webkit-top-left-border-radius:12px;border-top-left-radius:12px;background-color: #ff5a00;color:#fff;font-size:12px;display: none;text-align: center;}
+.manage-item li font{font-size:16px;color:#2a2a2a;line-height: 28px;width:100%;max-width:100%;font-variant: normal;}
+.manage-item li span{font-size:12px;color:#777;line-height: 28px;}
+.count-icon{position: absolute;bottom:15px;left:50%;margin:-4px; cursor: pointer;color:#aaa;}
+.count-icon.on{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg);}
+.add-edit{display: none;padding-bottom:20px;}
+
+
+.tj-list .list-item{width:100%;margin:0; }
+.tj-list .list-item li{height:97px;float: left;padding:0 10px;margin: 0 0 15px 0;border-bottom:none;}
+.tj-list .list-item li a{width:100%;font-size:0;display: block;padding:12px 8px 12px 88px;border:1px solid #e8e8e8;-webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px;position: relative;}
+.tj-list .list-item li a cite,.tj-list .list-item li a span{display: inline-block;vertical-align: middle;}
+.tj-list .list-item li a cite{width:70px;height:70px;overflow: hidden;-webkit-border-radius:8px;-moz-border-radius:8px;-o-border-radius:8px;-ms-border-radius:8px;border-radius:8px;border-radius:8px;position:absolute;top:12px;left:12px;}
+.tj-list .list-item li a cite img{width:100%;height:100%;}
+.tj-list .list-item li a span{color:#777;font-size:12px;width:100%;height:70px;}
+.tj-list .list-item li a span font,.tj-list .list-item li a span b{display: block;width:100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;max-width:100%;margin:0;}
+.tj-list .list-item li a span font{font-size:14px;color:#555;line-height: 28px;font-variant: normal;}
+.tj-list .list-item li a span b{font-style: normal;font-weight: normal;line-height: 20px;}
+.tj-list .list-item li a:hover,.tj-list .list-item li a:active{  background-color: #fff; -webkit-box-shadow: 0 3px 10px rgba(59,142,231,.51); -moz-box-shadow: 0 3px 10px rgba(59,142,231,.51); box-shadow: 0 3px 10px rgba(59,142,231,.51); background-image: -webkit-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: -moz-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: -o-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: -ms-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: linear-gradient(to top, #4eb9f9, #3888e4); border-color: transparent; color:#fff;}
+.tj-list .list-item li a:hover span,.tj-list .list-item li a:hover font,.tj-list .list-item li a:hover font{color:#fff;}
+.more-con a,.more-con button{ display: block; font-size:16px; color:#333; width:180px; height:44px;line-height: 44px;text-align: center;margin:15px auto; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #3988fb; border: solid 1px #e8e8e8; background-image: -webkit-linear-gradient(bottom, #efefef, #fff); background-image: -moz-linear-gradient(bottom, #efefef, #fff); background-image: -o-linear-gradient(bottom, #efefef, #fff); background-image: -ms-linear-gradient(bottom, #efefef, #fff); background-image: linear-gradient(to top, #efefef, #fff); text-decoration: none;}
+.more-con a:active{color:#333 !important;}
+.more-con button:focus{outline: none;}
+/*我的wiki  结束*/
+/*我的动态  开始*/
+.my-trends-list{margin:0;}
+.my-trends-list li{border-bottom:1px solid #efefef;color:#838383;font-size:14px;line-height: 20px;padding:32px 0;}
+.my-trends-list li p,.friend-trends-list li p{width:100%;padding-right:20%;position: relative;}
+.my-trends-list li .time-stamp,.friend-trends-list li .time-stamp{position: absolute;top:0;right:0;}
+.my-trends-list i{color:#2a2a2a;padding-right:10px;}
+.my-trends-list a{color:#3988fb;font-variant:normal !important;}
+/*我的动态  结束*/
+/*好友动态 开始*/
+.friend-trends-list li{padding:20px 0;font-size:14px;color:#838383;border-bottom:1px solid #efefef;position: relative;}
+.my-trends-list li:nth-last-of-type(1),.friend-trends-list li:nth-last-of-type(1){border-bottom:none;}
+.friend-trends-list li .time-stamp{position: absolute;top:0;right:0;}
+.user-img,.user-text{display: table-cell;float: none !important;}
+.user-img{vertical-align: top;}
+.user-name{color:#2a2a2a;padding-right:10px;}
+.user-text{width:100%;vertical-align: middle;}
+.user-text a{color:#3988fb;font-variant:normal !important;}
+.user-img cite{display: block; width:44px;height:44px;overflow: hidden;background-color: #5d5d5d;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;overflow: hidden;margin-right:5px;}
+.user-img cite img{width:100%;height:100%;}
+.user-intro-con p{position: relative;width:100%;padding-right:20%;-webkit-box-sizing:border-box;box-sizing:border-box;line-height: 20px;}
+.user-intro-con .time-stamp{position: absolute;top:0;right:0;}
+
+/*好友动态 结束*/
+.activity-more-con a{display: none;}
+/*右侧 开始*/
+#sidebar>div{padding-top:15px;}
+#sidebar>div h3{font-size:16px;height:30px; line-height: 30px; color:#333;font-weight: bold;margin:10px 0;}
+#sidebar>div a{font-size:12px;color:#3988fb;font-weight: normal;}
+/*关注、粉丝 开始*/
+.fans-con a{margin-bottom:15px;}
+.fans-con a cite{display: block;width:45px;height:45px;overflow: hidden;-webkit-border-radius: 50%;-o-border-radius: 50%;-ms-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;-webkit-border:1px solid #e5e5e5;-moz-border:1px solid #e5e5e5;-ms-border:1px solid #e5e5e5;-o-border:1px solid #e5e5e5;border:1px solid #e5e5e5;}
+.fans-con a cite img{width:100%;height:100%;}
+.fans-con a font{display: block;width:100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-size:12px;color:#555;line-height: 28px;text-align: center;font-variant: normal;}
+/*关注、粉丝 结束*/
+.no-fans{height:200px;line-height: 180px;color:#777;text-align: center;}
+.no-fans p i{display: inline-block;width:20px;height:16px;background-image: url(../images/icon-sprit.png);background-position: 0 -50px;background-repeat: no-repeat;vertical-align: middle;margin-right:5px;}
+/*右侧 结束*/
+
+/*内容区域 结束*/
+
+@media(max-width:991px){
+    .dis-inline{display: inline-block;vertical-align: middle;float: none;}
+    .web-hide{display: none !important;}
+    .pag-hor-20{padding:0 ;}
+    .trends-nav{margin:0 5px;}
+    .list-tit{padding:0 10px;}
+    .info-r{padding:40px 10px 0 !important;height:170px;}
+    .col-md-10.info-r,.col-md-2.look-con{float: none;}
+    .look-con{height:50px;margin:0;}
+    .info-user{margin:0 0 0 5px;}
+    .info-user, .info-user>div,.user-login,.user-intro-con{float: left;}
+    .user-intr{font-size:12px;}
+    .user-login{width:67px;height:67px;padding:3px;margin-right:9px;}
+    .user-login img{width:60px;height:60px;}
+    .personal-info{border-bottom:5px solid #ededed;}
+    .personal-info>div{ background: url(../images/info-wap-bg.jpg);height:215px;background-size:100% 215px;background-repeat: no-repeat;margin:0 -5px;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0;}
+    .info-edit-num{background-image: none;width:90px;height:auto;padding:8px 15px;margin:0;font-size:14px;float: right;text-align: center;-webkit-box-sizing:border-box;box-sizing:border-box;}
+    .info-edit-num cite{margin:0;}
+    .count-num{font-size:25px;}
+    .user-des{text-align: left;}
+    cite.count-num font{font-size:0;line-height: 12px;}
+    .info-edit-num cite.day-num{display: none;}
+    cite.count-num i,cite.count-num i::first-letter{font-size:20px;line-height: 20px;}
+    .nickname,.link-set,.link-set:link,.user-intr{color:#fff;}
+    .look-con a{background-image: none;border-radius: 0;width:25%;background-color: transparent;color:#555;float: left;margin:0;height:50px;line-height: 16px;font-size:14px;text-align: center;padding:12px 0;position: relative;}
+    .look-con a i{display: block;font-style: normal;}
+    .look-con a:after{content: "";position: absolute;top:50%;margin-top:-13px; right:0;height:32px;width:1px;background-color: #f3f3f3;}
+	.look-con a:active{color:#fff !important;}
+    .look-con a.un-link{background:transparent; cursor:not-allowed; }
+    .look-con a:nth-last-of-type(1):after{width:0;}
+    .tj-list .list-item li a:hover{background-image:none;box-shadow: none;border:1px solid #e8e8e8;}
+	.tj-list .list-item li a:hover span,.tj-list .list-item li a:hover font,.tj-list .list-item li a:hover font,.manage-item li a:hover span,.manage-item li a:hover font{color:#555;}
+	.tj-list .list-item li a:active span,.tj-list .list-item li a:active font,.tj-list .list-item li a:active font, .manage-item li a:active span,.manage-item li a:active font{color:#fff;}
+    .manage-item li a:active,.tj-list .list-item li a:active{ -webkit-box-shadow: 0 3px 10px rgba(59,142,231,.51); -moz-box-shadow: 0 3px 10px rgba(59,142,231,.51); box-shadow: 0 3px 10px rgba(59,142,231,.51); background-image: -webkit-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: -moz-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: -o-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: -ms-linear-gradient(bottom, #4eb9f9, #3888e4); background-image: linear-gradient(to top, #4eb9f9, #3888e4); border-color: transparent; color:#fff;background-color: #fff;}
+ 	.manage-item li a:active span,.manage-item li a:active font{color:#fff;}
+    .hotwiki-tit i,.glwiki-tit i,.gxwiki-tit i,.gzwiki-tit i{background-position: 0 0;background-size: 30px 30px;height:30px;}
+    .hotwiki-tit i{background-image: url(../images/s-remen.png);}
+    .glwiki-tit i{background-image: url(../images/s-guanli.png);}
+    .gxwiki-tit i{background-image: url(../images/s-gongxian.png);}
+    .gzwiki-tit i{background-image: url(../images/s-guanzhu.png);}
+
+    /*推荐wiki  开始*/
+
+
+    .tj-list .list-item li a{padding:15px;display: -webkit-box;-webkit-box-pack:center;-webkit-box-align:center;}
+    .tj-list .list-item li a cite{width:80px;height:80px;position: relative;top:0;left:0;margin-right:10px;}
+    .tj-list .list-item li a cite, .tj-list .list-item li a span{display: block;}
+    .tj-list .list-item li a  span{display: -wekit-box;-webkit-box-orient:vertical;-webkit-box-flex:1;}
+
+    .trends-con .list-item{width:100%;margin:0;}
+    .trends-con .list-item li{width:100%;height:auto;margin:0 0 10px 0;padding:0 5px;}
+    .my-trends-list,.friend-trends-list{padding:0 5px;}
+    .my-trends-list li{padding:10px 0;}
+    .my-trends-list li p,.friend-trends-list li p{padding-right:0;}
+    .my-trends-list li .time-stamp,.friend-trends-list li .time-stamp,.user-intro-con .time-stamp{position: relative;display: block;font-size:12px;}
+    .friend-trends-list li{line-height: 20px;padding:10px 0 ;}
+    .activity-more-con a{display: block; font-size:16px; color:#333; width:180px; height:44px;line-height: 44px;text-align: center;margin:15px auto; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; background-color: #3988fb; border: solid 1px #e8e8e8; background-image: -webkit-linear-gradient(bottom, #efefef, #fff); background-image: -moz-linear-gradient(bottom, #efefef, #fff); background-image: -o-linear-gradient(bottom, #efefef, #fff); background-image: -ms-linear-gradient(bottom, #efefef, #fff); background-image: linear-gradient(to top, #efefef, #fff); text-decoration: none;}
+    /*管理wiki 开始*/
+    .manage-item{padding:0;}
+    .manage-item li{margin-bottom:10px;padding:0 5px;display: block;}
+	.mg-wiki-main {display: -webkit-box;-webkit-box-flex:1;margin:0;padding:15px 10px !important;}
+    .manage-wiki{min-height:90px;height:112px; width:100%;text-align: left;display: -webkit-box;-webkit-box-pack:center;-webkit-box-align:center;padding:0;}
+	.manage-wiki:before{display: none;}
+    .manager-text{text-align: left;display: -webkit-box;-webkit-box-orient:vertical;-webkit-box-flex:1;padding-left:10px !important;}
+    .manage-item li span{line-height: 22px;}
+    .manage-item li cite i{display: block;}
+    .manage-item li cite{width:80px;height:80px;margin:0;}
+
+    /*管理wiki 结束*/
+    /*关注、私信按钮*/
+    .gz-icon{color:#fff;background-color: #fff;-webkit-box-shadow: inset 0 0 1px rgba(0,228,255,.24);-moz-box-shadow: inset 0 0 1px rgba(0,228,255,.24);box-shadow: inset 0 0 1px rgba(0,228,255,.24);border: solid 1px #44a0f9;background-image: -webkit-linear-gradient(top, #ff9702, #ff711c);background-image: linear-gradient(to bottom, #ff9702, #ff711c);}
+    .sx-icon{color:#fff;background-color: #393838;-webkit-box-shadow: inset 0 0 1px rgba(0,228,255,.24);-moz-box-shadow: inset 0 0 1px rgba(0,228,255,.24);box-shadow: inset 0 0 1px rgba(0,228,255,.24);border: solid 1px #44a0f9;background-image: -webkit-linear-gradient(top, #4eb9f9, #4397f7);background-image: linear-gradient(to bottom, #4eb9f9, #4397f7);}
+
+}

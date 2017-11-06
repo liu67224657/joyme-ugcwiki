@@ -1,0 +1,34 @@
+{
+    "name": "discussion",
+    "author": [
+        "?var Arnfj?r? Bjarmason",
+        "Aaron Schulz"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:Discussion",
+    "descriptionmsg": "discussion",
+    "license-name": "GPL-2.0+",
+    "type": "specialpage",
+    "GroupPermissions": {
+        "user": {
+            "discussion": true
+        }
+    },
+    "MessagesDirs": {
+        "discussion": [
+            "i18n"
+        ]
+    },
+
+    "AvailableRights": [
+        "discussion"
+    ],
+    "SpecialPages": {
+        "Discussion": "SpecialDiscussion"
+    },
+    "AutoloadClasses": {
+        "SpecialDiscussion": "specials/SpecialDiscussion.php",
+        "DiscussionListTemplate":"templates/DiscussionListTemplate.php",
+        "DetailTemplate":"templates/DetailTemplate.php",
+        "RecycleTemplate":"templates/RecycleTemplate.php"
+    }
+}

@@ -1,0 +1,250 @@
+/*rank.css*/
+
+.sort-list{
+	box-sizing: border-box;
+	max-width:420px;
+	overflow: hidden;
+	position: relative;
+	background-color:#fff; 
+}
+.mw-content-ltr .sort-list ul{
+	margin-left: 0;
+	margin-top: 0;
+	
+}
+.sort-list .sl-option,.sort-list .sl-op-op{
+	margin-left: 0;
+}
+.sort-list ul li{
+	margin: 0 0;
+}
+.sort-list .list-header0{
+	background-color:#eaedf6; 
+}
+.sort-list .sort-list-header{
+	font-size: 18px;
+	line-height: 44px;
+	height: 44px;
+	margin-left: 20px;
+	color: #2a2a2a;
+	border: none;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+.sort-list .sort-btns{
+	line-height: 44px;
+	color: #cececf;
+	width: 64%;
+	text-align: right;
+}
+.sort-list .sort-btn{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 44px;
+	height: 44px;
+	padding:0 7%;
+	color: #4d4d4d;
+	cursor: pointer;
+	margin-left: 0px;
+}
+.sort-list .sort-btn.on{
+	color: #2781fb;
+}
+.hot-plan .sort-btns,.best-plan .sort-btns{
+	width: 32%;
+}
+.sort-list .opop-item-img{
+	width: 44px;
+	height: 44px!important;
+	border-radius: 50%;
+}
+.sort-list .sl-option{
+	display: none;
+}
+.sort-list .sl-option.on{
+	display: block;
+}
+.sort-list .week-sort .opop-right,.week-sort .hot-num {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.sort-list .sl-op-op{
+	display: table;
+	padding: 20px 20px;
+	width: 100%;
+	position: relative;
+}
+.sort-list .opop-left{
+	display: table-cell;
+	width: 44px;
+	vertical-align: top;
+}
+.sort-list .opop-l-link{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+}
+.sort-list .opop-right{
+	display: block;
+	position: relative;
+	vertical-align: top;
+}
+.sort-list .sl-op-op::after{
+	content:"";
+	display: inline-block;
+	width:120%;
+	height: 1px;
+	background-color: #efefef;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+}
+.sort-list .op-r-h{
+	padding-left:10px;
+	line-height: 22px;
+	height: 22px; 
+}
+
+
+.hot-plan .op-r-h{
+	padding-left:0px; 
+}
+.hot-plan .op-r-s{
+	padding-left:0px; 
+	background:none;
+}
+.hot-plan .hot-num{
+	position: absolute;
+	height: 22px;
+	left: 84%;
+	top: 10px;
+	background:url(./images/hot-fire_01.png) left no-repeat;
+	padding-left: 23px;
+}
+.best-plan .hot-num{
+	height: 24px;
+	background:url(./images/hot-fire_03.png) 0 center no-repeat;
+
+}
+.week-sort .hot-num {
+	position: relative;
+	width: 20%;
+	top: 0;
+	
+}
+.sort-list .week-sort .op-r-h,.week-sort .op-r-s{
+	height: auto;
+}
+.hot-plan .op-r-h,.hot-plan .op-r-s{
+	width: 80%;
+
+}
+.hot-plan .op-r-h>a,.hot-plan .op-r-s>a{
+    display: inline-block;
+    text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+	
+}
+.sort-list.hot-plan .op-r-h>a,.hot-plan .op-r-s>a {
+    color: #1d7dff;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    display:inline-block;
+    width:100%;
+    height:100%;
+    line-height:1.6;
+    overflow:hidden;
+    white-space:nowrap;
+}
+.sort-list .op-r-h>a:hover,.op-r-s>a:hover{
+	text-decoration: underline;
+}
+.sort-list.new-plan .op-r-h,.new-plan .op-r-s{
+	height: auto; 
+	width: 100%;
+	color: #4d4d4d;
+}
+.sort-list.new-plan .op-r-h>a,.new-plan .op-r-s>a{
+	height: auto; 
+	width: 100%;
+	display: inline;
+}
+.op-r-s{
+	padding-left:30px;
+	line-height: 22px;
+	height: 22px; 
+	color: #838383;
+	background: url(./images/icon-shengwang.png) 10px 3px no-repeat;
+}
+.sort-list .op-r-s a{
+	color: #838383;
+
+}
+.sort-list .op-r-s a:hover{
+	text-decoration: underline;
+}
+.sort-list .best-plan .op-r-s{
+	line-height: 1.25;
+	overflow: hidden;
+	/*-webkit-line-clamp: 1;*/
+	line-clamp: 1;
+	-webkit-box-orient: vertical;
+	box-orient: vertical;
+	display: -webkit-box;
+	display: box;
+}
+.sort-list .op-r-jifen{
+	background-position: 10px 3px;
+}
+.sort-list .op-r-sheng{
+	background-position: 10px -44px;
+}
+.sort-list .op-r-xiaofei{
+	background-position: 10px -21px;
+
+}
+.sort-list .list-num00{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	right: 0;
+	top: 8px;
+
+}
+.sort-list .list-num1{
+	background: url(./images/list-num1.jpg) 0 no-repeat;
+	background-size: contain;
+}
+.sort-list .list-num2{
+	background: url(./images/list-num2.jpg) 0 no-repeat;
+	background-size: contain;
+}
+.sort-list .list-num3{
+	background: url(./images/list-num3.jpg) 0 no-repeat;
+	background-size: contain;
+}
+
+.sort-list .list-num00 img{
+	width: 100%;
+}
+@media (max-width:768px){
+	.hot-plan .op-r-h,.hot-plan .op-r-s{
+		width: 68%;
+	}
+	.hot-plan .op-r-h>a,.hot-plan .op-r-s>a{
+		width:100%;
+	}
+
+}
+@media (max-width:360px){
+
+	.sort-list .sort-btn{
+		    padding: 0px 3%;
+	}
+} 

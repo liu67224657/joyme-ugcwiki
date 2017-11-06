@@ -1,0 +1,280 @@
+/* Main Page welcome user */
+.user-info-box .fl{
+	float: left;
+
+}
+.user-info-box .fr{
+	float: right;
+}
+.user-info-box .clearfix{
+	display:block;
+}
+.user-info-box .clearfix:after{
+	content: '';
+	display:block;
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+
+.user-info-box{
+	width: 307px;
+	position:absolute;
+	z-index: 997;
+	display:block;
+}
+.user-info-box .ui-top{
+	background-color: #ebeefd;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-top:1px; 
+	height: 162px;
+	background-image: url(./images/user-int-bg.jpg);
+	background-size: 100% 100%;
+}
+.user-info-box .ui-top-img{
+	width: 70px;
+	height: 70px;
+	margin: 23px auto 0;
+	position: relative;
+	
+}
+.user-info-box .ui-top-img-a{
+	width: 58px;
+	position: relative;
+	left: 6px;
+	top: 6px;
+	display: inline-block;
+	height: 58px;
+	border-radius: 50%;
+	background-color: #fff;
+
+}
+.user-info-box .ui-top-img-a img{
+	position: relative;
+	left: 2px;
+	top: 2px;
+	width: 54px;
+	height: 54px;
+	border: none;
+	border-radius: 50%;
+}
+.user-info-box .ui-name{
+	color: #2d64b3;
+	font-size: 12px;
+	line-height: 20px;
+	height: 20px;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.user-info-box .ui-top-decorate{
+	position: absolute;
+	z-index: 1;
+	width: 70px;
+	height: 70px;
+	background:url(./images/skin-images/d-head.png) left 100px no-repeat; 
+	
+}
+.user-info-box .ui-top-img .ui-vip{
+	position: absolute;
+	right: 8px;
+	bottom: 4px;
+	width: 23px;
+	height: 23px;
+	background: url(./images/ui-vip.png) 0 0 no-repeat;
+	z-index: 2;
+}
+.user-info-box .ui-name-box{
+	text-align: center;
+	margin-top: 7px;
+}
+.user-info-box .user-sexes{
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+.user-info-box .user-male{
+	background: url(./images/man.png) 0 0 no-repeat;
+}
+.user-info-box .user-female{
+	background: url(./images/female.png) 0 0 no-repeat;
+}
+.user-info-box .ui-top-title{
+	margin-top: 12px;
+	width: 86%;
+	color: #000000;
+	font-size: 12px;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 18px;
+	height: 18px;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+.user-info-box .ui-bottom{
+	position: relative;
+	height: auto;
+	background-color: #f2f2f2;
+}
+.user-info-box .focus-funs-box{
+	color:#e4e4e4;
+	text-align: center;
+	padding: 21px 0 14px;
+}
+.user-info-box .focus-funs-box .f-f-li{
+	display: inline-block;
+	padding:0 18px; 
+	color: #888888;
+	font-size: 12px;
+}
+.user-info-box .focus-funs-box .f-f-li .funs-value{
+	color: #2d64b3;
+	padding-left: 5px;
+	// vertical-align: middle;
+}
+.user-info-box .btn-focus-letter-box{
+	text-align: center;
+}
+.user-info-box .focus-btn{
+	display:inline-block;
+	height: 24px;
+	line-height: 24px;
+	width: 80px;
+	text-align: center;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	position: relative;
+
+}
+.user-info-box .focus-btn.focus{
+
+	background-color: #e64545;
+}
+.user-info-box .focus-btn.focused{
+	background-color: #ccc;
+}
+.user-info-box .focus-btn.focused:hover:after{
+	content: "取消关注";
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 100%;background-color: #ccc;
+	left:0;
+	top: 0;
+	border-radius: 3px;
+}
+.user-info-box .focus-btn.nofocused{
+	background-color: #ccc;
+	
+}
+.user-info-box .focus-btn.letter-pre{
+	background-color: #3e89fa;
+	margin-left: 25px;
+}
+.user-info-box .focus-btn.letter-pre:first-child{
+	margin-left: 0;
+}
+.user-info-box .shegwag-box{
+	padding: 13px 21px 19px; 
+	position: relative;
+}
+.shegwag-box .be-mobai,.shegwag-box .be-shegwag{
+	display: inline-block;
+	height: 18px;
+}
+.user-info-box .fot-colo{
+	font-size: 12px;
+	color: #888888;
+}
+.user-info-box .admin-box{
+	
+	width: 100%;
+	height: 45px;
+	background-color:#e9e9e9;
+	line-height: 45px;
+	padding-left:20px;  
+}
+.user-info-box .admin-wiki{
+	display: inline-block;
+	height: 24px;
+	vertical-align: middle;
+
+}
+.user-info-box .admin-wiki .wiki-li-box{
+	height: 24px;
+	
+	margin:0 5px;
+}
+.admin-wiki .wiki-li-box .wiki-li-a{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	border-radius: 5px;
+}
+.admin-wiki .wiki-li-box .wiki-li-a img{
+	width: 100%;
+	vertical-align: top;
+
+}
+.user-info-box .admin-sum-num{
+	vertical-align: middle;
+}
+/* 头像道具 */
+.user-info-box  .decorate1{
+	background-position: 6px 9px;
+	background-size: 83%
+}
+.user-info-box  .decorate2{
+	background-position: 6px -60px;
+	background-size: 83%
+}
+.user-info-box  .decorate3{
+	background-position: 6px -129px;
+	background-size: 83%
+}
+.user-info-box  .decorate4{
+	background-position: 6px -195px;
+	background-size: 83%
+}
+.user-info-box  .decorate5{
+	background-position: 1px -314px;
+	background-size: 99%
+}
+.user-info-box  .decorate6{
+	background-position: 1px -390px;
+	background-size: 97%
+}
+.user-info-box  .decorate7{
+	background-position: 0px -480px;
+	background-size: 100%
+}
+
+/* 背景道具 */
+.user-info-box .ui-top1{
+	background-image: url(./images/skin-images/ui-top-img1.png);
+}
+.user-info-box .ui-top2{
+	background-image: url(./images/skin-images/ui-top-img2.png);
+}
+.user-info-box .ui-top3{
+	background-image: url(./images/skin-images/ui-top-img3.png);
+}
+.user-info-box .ui-top4{
+	background-image: url(./images/skin-images/ui-top-img4.png);
+}
+.user-info-box .ui-top5{
+	background-image: url(./images/skin-images/ui-top-img5.png);
+}
+.user-info-box .ui-top6{
+	background-image: url(./images/skin-images/ui-top-img6.png);
+}
+.user-info-box .ui-top7{
+	background-image: url(./images/skin-images/ui-top-img7.png);
+}

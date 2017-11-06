@@ -1,0 +1,94 @@
+/* CSS for Vote extension */
+.vote-box {
+	background-color: #68BD46;
+	height: 30px;
+	padding: 13px 0px 0px;
+	text-align: center;
+	width: 43px;
+}
+.vote-main {
+	height: 75px;
+	width: 160px;
+}
+
+.vote-number {
+	color: #08c;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.vote-action {
+	text-align: center;
+	width: 43px;
+}
+
+.vote-action a {
+	font-weight: bold;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.rating-score {
+	color: #FFF;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 1px 7px 0px 0px;
+	text-align: center;
+	height:50px;
+	width:50px;
+	line-height:50px;
+}
+
+.rating-score-bg0 {
+	background-color: #bfbfbf;
+}
+
+.rating-score-bg1, .rating-score-bg2, .rating-score-bg3 {
+	background-color: #ff0000;
+}
+
+.rating-score-bg4, .rating-score-bg5, .rating-score-bg6 {
+	background-color: #ffbf00;
+}
+
+.rating-score-bg7, .rating-score-bg8, .rating-score-bg9, .rating-score-bg10 {
+	background-color: #68BD46;
+}
+
+.voteboxrate{
+	
+}
+
+.ratings-top {
+	position: absolute;
+	top: 37px !important;
+	right: 0px !important;
+	width: 100%;
+}
+
+.rating-section img {
+	vertical-align: text-bottom;
+}
+
+.rating-voted {
+	color: #666666;
+	line-height: 12px;
+	font-size: 12px;
+}
+
+/* Styling for the (n votes) after rating box/stars */
+.rating-total {
+	color: #666;
+	font-weight: bold;
+	font-size: 12px;
+	margin: 3px 0px 0px 0px;
+}
+
+.vote-remove-stars-link{
+	font-size:12px;
+}
+
+.rating-clear {
+	clear:both;
+}

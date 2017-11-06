@@ -1,0 +1,397 @@
+/*！！样式以移动端为基础
+======================================================================================
+    Joyme Wiki 皮肤 2号 移动端部分样式
+    更新日期：2016年9月20日
+======================================================================================
+*/
+/*调整bootstrap.css中一些不符合需要的样式*/
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+/*PC端下从1170px改为1080px*/
+@media (min-width: 1200px) {
+    .container {
+        width: 1080px;
+    }
+}
+
+/* 取消阴影效果 */
+@media (min-width: 1200px) {
+    #wrapper{
+        box-shadow: inherit;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    #wrapper{
+        box-shadow: inherit;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    #wrapper{
+        box-shadow: inherit;
+    }
+}
+/*======================================================================================*/
+/*主体通用样式*/
+/*======================================================================================*/
+body {background: #519bc6;font-family:"Microsoft YaHei", SimSun, sans-serif;color: #555;position: relative;line-height:1;}
+#wrapper{margin-top: 0; padding-bottom:0;}
+#content {line-height:1.42857143}
+@media (min-width: 992px) {
+    #wrapper {padding-bottom: 30px;}
+}
+@media (max-width: 991px) {
+
+}
+/*======================================================================================*/
+/*常用通用样式*/
+/*======================================================================================*/
+.fn-left{float: left;}
+.fn-right{float: right;}
+.fn-clear{*zoom:1;}
+.fn-clear:after{content:'';display:block;height:0;clear:both;font-size:0;line-height: 0;}
+/*编辑常用的隐藏用class*/
+@media only screen and (min-width:992px){
+    .wiki_hide {display: none;}
+    .mstyle{
+        display: none;
+    }
+}
+@media only screen and (max-width:991px){
+    .mwiki_hide {display: none;}
+}
+/*======================================================================================*/
+/*移动端导航顶部*/
+/*======================================================================================*/
+.navbar-header2{ background-color: #2b3443; position: relative; display: none;}
+.navbar-header2 #sidebar-menu-bg{height:100%;bottom:0;z-index: 91;}
+.navbar-header2 #sidebar-menu.header-dh{float: right; margin-right: 35px;}
+.navbar-header2 .ysw-wiki{ 
+    padding:5px 0;
+margin-left: 10px;
+}
+.wiki-logo{
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(../images/logo_wiki.png);
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+.navbar-header2 .header-search{ 
+   
+   background: url("../images/search-icon02_03.png") no-repeat center center;
+   width: 24px;
+   height: 24px;
+   border: 0px;
+   background-size: cover;
+   margin-top: 10px;
+   /* float: right; */
+   margin-right: 10px;
+   position: absolute;
+   top: 50%;
+   margin-top: -12px;
+   right: 40px;
+}
+.navbar-header2 .header-search.on{ display:none;}
+.header-search-text{ height: 45px;background: rgba(0,0,0,0.6); position: relative; top:-1px;display: none;z-index:2;}
+.header-search-text input{width: 70%; text-align: center; position: absolute; left: 16%; margin-top: 0.5em; border: 0px; border-radius: 12px; height: 30px; cursor: pointer;}
+.icon-bar-gray{
+    height: 2px;
+    margin-top: -2px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color:#8a8f99;  
+}
+.navbar-header2 .header-dh{ float: right; padding-right: 10px;position: relative;z-index: 3;}
+@media (min-width: 992px) {
+    .navbar-header2 {display: none;}
+    .mstyle{
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    /*.bodypos .navbar-header2{ position:inherit;}*/
+    .navbar-header2-fixed{ display: block;position: fixed;width: 100%;top: 0;z-index: 22;}
+}
+/*======================================================================================*/
+/*左侧/移动端导航*/
+/*======================================================================================*/
+#joymewiki-navigation {display: none;}
+#joymewiki-navigation {height: auto;position: fixed;overflow-y: scroll;width: 80%;background-color: #2a3443;color: #fff;}
+@media (min-width: 992px) {
+    #joymewiki-navigation {position: static;overflow:visible;}
+}
+@media (max-width: 991px){
+    #joymewiki-navigation.dh-change{display: block;position:absolute;top: 42px;  right: 0; z-index: 92;}
+    #joymewiki-navigation {position:relative;overflow-y: scroll;}
+}
+
+/*======================================================================================*/
+/*未发现用途代码*/
+/*======================================================================================*/
+/***search 搜索框隐藏****/
+#search #searchText{ display:none;}
+#search .mw-ui-button.mw-ui-progressive{ display:none;}
+.navbar{margin-bottom: 0;}
+
+
+/*======================================================================================*/
+/* 内容区 */
+/*======================================================================================*/
+.joymewiki-block {padding: 15px;}
+.joymewiki-content-block {background-color: #fff;}
+#contentSub, #contentSub2 {margin-left: 0;}
+@media (min-width: 992px) {
+    .joymewiki-block {padding: 25px;}
+    #wrapper .joymewiki-content-block {margin-top: 65px;}
+}
+
+/*======================================================================================*/
+/* 内容区 - h1 */
+/*======================================================================================*/
+#firstHeading2{overflow: visible;font-weight: normal;}
+.nry-h1{ margin-top:0; border-bottom:0;}
+#firstHeading2 .h1{font-size: inherit;font-style: normal;}
+.nry-h1 .h1{ font-size:24px !important; border:0; line-height:normal; display:inline; margin-right:15px;}
+.nry-h1 .h1-left{line-height:24px;}
+#firstHeading2 .page-hot{font-size: 12px; display:inline; 
+    margin-left: 12px;display: none;
+ white-space:nowrap;margin-top: 10px;background:url("../images/page-hot-m.png") no-repeat left center; padding-left:18px; background-size:13px 14px;}
+#firstHeading2 .page-hot a{ color:#555;}
+#firstHeading2 .h1-top {padding: 10px 0;border-bottom: 1px solid #f3f3f3;position: relative;clear: both;}
+#firstHeading2 .h1-bottom {padding: 10px 0;}
+#firstHeading2 .djd{display: block;margin: 12px 12px 0;font-size: 50%;line-height: 1;}
+#firstHeading2 .djd>*{display: inline-block;padding-right: 1em;vertical-align: baseline;}
+#firstHeading2 .djd .pf{padding-left:0;}
+#firstHeading2 .djd .pf .xj img{width: 1.1em;}
+#firstHeading2 .djd .pf span{display: inline-block;vertical-align: baseline;}
+#firstHeading2 .djd .pf span+span {padding-left: 5px;}
+
+#firstHeading2 .shouc{float: right; width: 86px; height: 32px; background: #72ce25 url("../images/wiki-nry_03.png") no-repeat; border-radius: 4px; display: none; text-indent: -9999px;}
+#firstHeading2 .shouc-done{border-radius: 4px; background:#8c8c8c;color: #fff;text-align: center; line-height: 32px; text-indent:inherit;font-size: 14px;text-decoration: inherit;}
+#firstHeading2 .shouc-done:hover{ color:#fff;}
+
+#firstHeading2 .info1{font-size: 12px;margin: 0;line-height: 1.8;}
+#firstHeading2 .info0{
+  display: none;
+}
+#firstHeading2 .info0>li{
+
+    margin-top: 12px;
+}
+#firstHeading2 .info0>li.line-c{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#firstHeading2 .info0 .contributer{
+    color: #2781fb;
+}
+#firstHeading2 .info0 .info0-btns{
+  margin-left: 20px;
+}
+#firstHeading2 .info0 .info0-btn{
+    background-color: #2f7ba1;
+    width: 60px;
+    display: inline-block;
+    padding-left: 30px;
+    background-image: url(../images/icons-info.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 2px;
+    height: 24px;
+    cursor: pointer;
+}
+#firstHeading2 .info0 .info0-btn:hover{
+    background-color: #106189;
+}
+#firstHeading2 .info0 .thank-btn{
+    background-position: 4px 5px;
+}
+#firstHeading2 .info0 .prostrate-btn{
+    background-position: 4px -22px;
+}
+
+#firstHeading2 .info0 .contributer:hover{
+    text-decoration: underline;
+}
+#firstHeading2 .info0 .line-c{
+    padding-top: 3px;
+    color: #cbcbcb;
+}
+#firstHeading2 .info0 .prostrate-num{
+    display: inline-block;
+    line-height: 24px;
+    height: 24px;
+    color: #2781fb;
+}
+#firstHeading2 .info0 .prostraters-box{
+    height: 26px;
+    position: relative;
+    width: 170px;overflow: hidden;
+}
+#firstHeading2 .info0 .prostraters-ul{
+   position: absolute;
+   width: 500px;
+}
+#firstHeading2 .info0 .prostraters{
+    margin: 0 4px;
+    width: 26px;
+    height: 26px;
+    position:relative;
+}
+#firstHeading2 .info0 .prostraters-img{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+	border:1px solid #e3e3e3;
+}
+#firstHeading2 .info0 .prostraters-num{
+	position:absolute;
+	right:0px;
+	top:0px;
+	color:#2f7ba1;
+	font-size:12px;
+	line-height:12px;
+}
+#firstHeading2 .info0 .list-prostraters{
+    position: relative;
+    margin-left: 20px;
+}
+#firstHeading2 .info0 .prostraters-direction{
+    background-image:url(../images/icons-info.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    position: absolute;
+    height: 26px; 
+}
+#firstHeading2 .info0 .prostraters-left{
+  background-position: -5px -73px; 
+  left: -12px;
+  top: 0; 
+}
+#firstHeading2 .info0 .prostraters-right{
+  background-position: -5px -102px; 
+  right: -12px;
+  top: 0; 
+}
+/*膜拜弹窗样式*/
+.new-window-content{
+  width: 300px;
+  user-select:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+}
+.new-window-line{
+  padding: 10px;
+}
+.label-word{
+  font-size: 14px;
+  line-height: 20px;
+  color: #1a1a1a;
+  vertical-align: middle;
+}
+.label-input{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.label-input .fuhao{
+  padding: 0 5px;
+  height: 22px;
+  border:1px solid #dfdfdf;
+  line-height: 22px;
+  display: inline-block;
+  font-size: 16px;
+  color:#1a1a1a;
+  background-color: #e9e9e9;
+  vertical-align: middle;
+}
+
+.label-input .fuhao-times{
+    margin: 0 5px;
+  width: 30px;
+}
+.label-input .fuhao-unplus{
+  padding:0 8px;
+  cursor: pointer;
+}
+.label-input .fuhao-plus{
+  cursor: pointer;
+}
+.label-input .fuhao.noclick{
+    background-color: #6d6969;
+    cursor: initial;
+}
+.showPoint{
+  color: #2e7aa0;vertical-align: middle;
+
+}
+.surplus{
+  color: #9f9f9f;
+  vertical-align: middle;
+}
+.surplus i{
+    font-style: normal;
+}
+.usericon_admin{
+    border-radius: 50%;
+}
+/*弹窗样式结束*/
+/*标准PC显示屏幕大小*/
+@media (min-width: 992px) {
+#firstHeading2 .h1-left{ max-width:83%;}
+#firstHeading2 .page-hot{background:url("../images/page-hot-pc.png") no-repeat left center;}	
+    #firstHeading2 .djd{display: inline-block;margin: 0;}
+    #firstHeading2 .djd .pf{padding-right: 1em;}
+    #firstHeading2 .info1 {float: left;color: #b3b3b3;}
+    #firstHeading2 .select-choose{float: right;margin: 0;}
+    /*操作下拉框样式调整*/
+    .caozuo-select.navbar-nav > li > a.dropdown-toggle{width: 86px;height: 24px;font-size: 12px;color: inherit;line-height: 23px;text-align: center;border: 1px solid #ededed;padding: 0;border-radius: 4px;background-color: #e9e9e9;background-image: -webkit-linear-gradient(top,#f4f4f4,#dcdcdc);background-image: -moz-linear-gradient(top,#f4f4f4,#dcdcdc);background-image:linear-gradient(top,#f4f4f4,#dcdcdc);}
+    .caozuo-select .caret{margin-left: 5px;border-top: 4px dashed #8e8e8e;}
+    .caozuo-select .dropdown-menu{font-size: 12px;width: 100%;min-width: inherit;border: 1px solid #ebebeb;}
+    .caozuo-select .dropdown-menu > li > a{padding: 3px 10px;width: 85px;text-align: left;}
+    .caozuo-select.nav> li.dropdown:hover .dropdown-menu {display: block;}
+    .caozuo-select .dropdown-menu > li > a:hover, .caozuo-select .dropdown-menu > li > a:focus { background-color: #3386ff;color: #fff;}
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .tl-ej-nav .gz-citiao{ display:none;}
+}
+@media (min-width: 992px) and (max-width: 1075px){
+    .tl-ej-nav .ej-nav-wrap .ej-nav-con{ float:left; padding-left:50px;}
+}
+
+
+/*======================================================================================*/
+/*可视化编辑器样式修正*/
+/*======================================================================================*/
+/*整体调整*/
+.ve-ui-toolbar *, .ve-ui-overlay * {box-sizing: content-box;}
+/*工具条加边框，吸顶距离调整*/
+.ve-init-target>.ve-ui-toolbar>.oo-ui-toolbar-bar {border: 1px solid #ccc;}
+.ve-ui-toolbar-floating > .oo-ui-toolbar-bar {top: 50px !important;}
+/*工具条保存按钮高度修正*/
+.oo-ui-toolbar-actions > .oo-ui-buttonElement.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-labelElement-label {line-height: 3.15em;}
+/*内容区蒙版加边框*/
+.ve-init-mw-target-surface {margin-top: 15px; border: 1px solid #ccc;} 
+/*小控件加边框*/
+.ve-ui-targetWidget {border: 1px solid #ccc;}
+/*调整工具条宽度*/
+.oo-ui-toolbar-actions > .oo-ui-buttonElement.oo-ui-labelElement > .oo-ui-buttonElement-button > .oo-ui-labelElement-label {margin: 0 0.8em !important;line-height: 3.15em !important;}
+.oo-ui-barToolGroup > .oo-ui-toolGroup-tools > .oo-ui-tool > .oo-ui-tool-link {height: 1.9em !important;}
+.oo-ui-toolbar-narrow .oo-ui-menuToolGroup .oo-ui-popupToolGroup-handle {min-width: 7em !important;}

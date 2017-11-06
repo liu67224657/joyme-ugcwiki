@@ -1,0 +1,62 @@
+body.opr-texiao-shake {
+    animation: page_shake 2s ease 0s 1;
+    -webkit-animation: page_shake 2s ease 0s 1;
+}
+@keyframes page_shake{
+	0% {
+	    transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	    -moz-transform: rotate(0deg);
+	    -webkit-transform: rotate(0deg);
+	    -o-transform: rotate(0deg);
+	}
+	4% {
+	    transform: rotate(5deg);
+	    -ms-transform: rotate(5deg);
+	    -moz-transform: rotate(5deg);
+	    -webkit-transform: rotate(5deg);
+	    -o-transform: rotate(5deg);
+	}
+	12.5% {
+	    transform: rotate(-5deg);
+	    -ms-transform: rotate(-5deg);
+	    -moz-transform: rotate(-5deg);
+	    -webkit-transform: rotate(-5deg);
+	    -o-transform: rotate(-5deg);
+	}
+	21% {
+	    transform: rotate(5deg);
+	    -ms-transform: rotate(5deg);
+	    -moz-transform: rotate(5deg);
+	    -webkit-transform: rotate(5deg);
+	    -o-transform: rotate(5deg);
+	}
+	29% {
+	    transform: rotate(-5deg);
+	    -ms-transform: rotate(-5deg);
+	    -moz-transform: rotate(-5deg);
+	    -webkit-transform: rotate(-5deg);
+	    -o-transform: rotate(-5deg);
+	}
+	37.5% {
+	    transform: rotate(5deg);
+	    -ms-transform: rotate(5deg);
+	    -moz-transform: rotate(5deg);
+	    -webkit-transform: rotate(5deg);
+	    -o-transform: rotate(5deg);
+	}
+	46% {
+	    transform: rotate(-5deg);
+	    -ms-transform: rotate(-5deg);
+	    -moz-transform: rotate(-5deg);
+	    -webkit-transform: rotate(-5deg);
+	    -o-transform: rotate(-5deg);
+	}
+	50%, 100% {
+	    transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	    -moz-transform: rotate(0deg);
+	    -webkit-transform: rotate(0deg);
+	    -o-transform: rotate(0deg);
+	}
+}

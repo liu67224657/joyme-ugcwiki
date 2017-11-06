@@ -1,0 +1,124 @@
+.wiki-info ul li a .userheader-box{
+	position: relative;
+	float: left;
+	margin-right: 8px;
+}
+.user-vip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 40%;
+    height: 40%;
+    background: url(../images/daoju/m-vip-icon.png);
+    background-size: 100%;
+    z-index: 5
+}
+.left-vip{
+	right: initial;
+	left: 0;
+}
+/* .wiki-info ul li a .userheader-box .daoju{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: -10%;
+	top: -10%;
+	margin-right: 10px;
+	padding: 10%;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+} */
+
+/* .wiki-info ul li a .daoju1{
+	background-image: url(../images/daoju/d-head.png);
+	background-size: 100%;
+}
+.wiki-info ul li a .daoju2{
+	background-image: url(../images/daoju/d-head.png);
+	background-size: 100%;
+}
+.wiki-info ul li a .daoju3{
+	background-image: url(../images/daoju/d-head.png);
+	background-size: 100%;
+}
+.wiki-info ul li a .daoju4{
+	background-image: url(../images/daoju/d-head.png);
+	background-size: 100%;
+}
+.wiki-info ul li a .daoju5{
+	background-image: url(../images/daoju/d-head.png);
+	background-size: 100%;
+}
+.wiki-info ul li a .daoju6{
+	background-image: url(../images/daoju/d-head.png);
+	background-size: 100%;
+}
+.wiki-info ul li a .daoju7{
+	background-image: url(../images/daoju/d-head.png);
+	background-size: 100%;
+} */
+.mp-userinfo{
+	position: relative;
+}
+.userinfo>span.userGroup_box{
+	position: relative;
+	display: inline-block;
+}
+.usericon_admin{
+    border-radius: 50%;
+}
+.userinfo span.daoju,.wiki-info ul li a .userheader-box .daoju{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	left: -10%;
+	top: -10%;
+	padding: 10%;
+	// background-image: url(../images/daoju/d-head.png);
+	box-sizing: content-box;
+	background-repeat: no-repeat;
+	background-position: 0 center;
+}
+
+.userinfo span.daoju1,.wiki-info ul li a .userheader-box .daoju1{
+	left: -2%;
+	top: -2%;
+	padding: 2%;
+	background-image: url(../images/daoju/d-head_02.png);
+	background-size: 100%;
+}
+.userinfo span.daoju2,.wiki-info ul li a .userheader-box .daoju2{
+	left: -2%;
+	top: -2%;
+	padding: 2%;
+	background-image: url(../images/daoju/d-head_06.png);
+	background-size: 100%;
+}
+.userinfo span.daoju3,.wiki-info ul li a .userheader-box .daoju3{
+	left: -2%;
+	top: -2%;
+	padding: 2%;
+	background-image: url(../images/daoju/d-head_09.png);
+	background-size: 100%;
+}
+.userinfo span.daoju4,.wiki-info ul li a .userheader-box .daoju4{
+	left: -2%;
+	top: -2%;
+	padding: 2%;
+	background-image: url(../images/daoju/d-head_12.png);
+	background-size: 100%;
+}
+.userinfo span.daoju5,.wiki-info ul li a .userheader-box .daoju5{
+	background-image: url(../images/daoju/d-head_15.png);
+	background-size: 100%;
+}
+.userinfo span.daoju6,.wiki-info ul li a .userheader-box .daoju6{
+	background-image: url(../images/daoju/d-head_18.png);
+	background-size: 100%;
+}
+.userinfo span.daoju7,.wiki-info ul li a .userheader-box .daoju7{
+	background-image: url(../images/daoju/d-head_21.png);
+	background-size: 100%;
+	background-position: 0;
+}

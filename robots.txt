@@ -1,0 +1,14 @@
+User-agent: *  
+Disallow: /*.php
+Disallow:/bdhzwiki/
+Disallow:/bdhzold/
+Disallow:/bdhz/
+Disallow:/youkuwiki/
+Disallow:/wxwiki/
+Disallow:/appwiki/
+Disallow:/sougouboxwiki/
+Disallow:/sgsswiki/
+Disallow:/xiaomiwiki/
+Disallow:/hawiki/
+Disallow:/bfwiki/
+Disallow:/360zhushou/

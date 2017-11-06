@@ -1,0 +1,27 @@
+{
+  "name": "createwiki",
+  "author": [
+    "Shixin"
+  ],
+  "url": "https://www.mediawiki.org/wiki/Extension:RecommendUsers",
+  "descriptionmsg": "givemethumbup",
+  "license-name": "GPL-2.0+",
+  "type": "specialpage",
+  "GroupPermissions": {
+    "bureaucrat": {
+      "createwiki": true
+    }
+  },
+  "AvailableRights": [
+    "createwiki"
+  ],
+  "SpecialPages": {
+    "CreateWiki": "SpecialCreateWiki"
+  },
+  "AutoloadClasses": {
+    "SpecialCreateWiki": "specials/SpecialCreateWiki.php",
+    "CreateWikiClass":"CreateWikiClass.php",
+    "CreateAliYunClass":"CreateAliYunClass.php",
+    "CreateDatabase":"CreateDatabase.php"
+  }
+}

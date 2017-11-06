@@ -1,0 +1,51 @@
+@charset "utf-8";
+.like-list-box  a{color:#2781ff;}
+.like-list-box .page-h1 .my_save{ float:left;}
+.like-list-box .page-h1 .choose_wiki{ float:right;}
+.like-list-box .page-h1 .choose_wiki select{width: 150px;height: 21px;border:1px solid #efefef;border-radius: 5px;}
+.like-list dt{color:#777;font-size:14px;font-weight: normal;height:40px;line-height: 40px;border-bottom:1px dashed #f3f3f3;width:100%;overflow:hidden;}
+.like-list dt span,.like-list dd a,.like-list dd span{display: block;float:left;}
+.like-list dd a,.like-list dd span{height:22px;}
+.like-list dd span.web-show{display: none;}
+.like-list dd {line-height: 22px;overflow: auto;padding:9px 0;}
+.like-tit,.like-list dd a:nth-of-type(1){width:30%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding-right:10px;}
+.form-action,.like-list dd span:nth-of-type(1){width:12%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; text-align:center;}
+.like-list dd span:nth-of-type(1){font-size:12px;color:#6D1E1E;}
+.form-wiki,.like-list dd span:nth-of-type(2){width:19%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.edit-num,.like-list dd span:nth-of-type(3){width:19%;text-align: center;}
+.last-time,.like-list dd span:nth-of-type(4),.like-list dd span:nth-last-of-type(1){width:20%;text-align: center;}
+.form-wiki{text-indent: 18px;}
+.link-count{display: block;padding:20px;background-color: #fff;text-align:center;color:#2a2a2a;font-size:16px;}
+/*select表单 样式 开始*/
+.select-box{height:54px;background: #fff;border-bottom:10px solid transparent;margin-bottom:10px;-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px;-moz-border-top-left-radius: 5px;-moz-border-top-right-radius: 5px;-ms-border-top-left-radius: 5px;-ms-border-top-right-radius: 5px;-o-border-top-left-radius: 5px;-o-border-top-right-radius: 5px;}
+.select-area{position: relative;float: left;width:95px;overflow: hidden;padding:0 14px 0 0;height:30px;margin:5px 6px 0;text-indent: 8px;}
+.sc-select{width:180px;}
+.select-ele {width: 100%;overflow: hidden;text-indent: 0;}
+.select-ele i{position: absolute;right:0;bottom:8px;}
+
+.select-value{height:30px;line-height:30px;display: block;width:100%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap; padding:0 3px;text-align:center;}
+.select-area select{position: absolute;left:0;top:0;opacity: 0;height:30px;line-height: 30px;width:80px;font-size:18px;cursor: pointer;}
+.eidt-change,.eidt-add{font-style: normal;width:42px;height:22px;line-height: 22px;text-align: center;color:#fff;font-size:14px;display: block;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;}
+.eidt-change{background-color: #ff5b02;}
+.eidt-add{background-color: #59db93;}
+.edit-list .item-r-text{color:#4d4d4d;}
+/*select表单 样式 结束*/
+.select-area.other-wdith{max-width:200px;}
+@media(max-width:1024px){
+	.like-list-box + .paging{ display: none;}
+
+}
+@media(max-width:991px){
+	.select-ele .fa{
+		padding-right: 0;
+		right: 12px;
+	}
+	.like-list dt{border-bottom:none;}
+  	.web-hide{display: none !important;}
+  	.like-tit, .like-list dd a:nth-of-type(1){width:30%;}
+  	.form-action, .like-list dd span:nth-of-type(1){width:0;}
+	.form-wiki, .like-list dd span:nth-of-type(2){width:25%;}
+	.edit-num, .like-list dd span:nth-of-type(3){width:20%;}
+	.last-time, .like-list dd span:nth-of-type(4), .like-list dd span:nth-last-of-type(1){width:25%;}
+
+}

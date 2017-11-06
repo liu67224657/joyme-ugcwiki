@@ -1,0 +1,6 @@
+h1#firstHeading{display:none;}
+
+@media(max-width:991px){
+	.int-tj-list li:nth-of-type(4){border-bottom:none !important;}
+	.int-tj{border-bottom:10px solid #efefef;}
+}

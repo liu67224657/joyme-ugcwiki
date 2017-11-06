@@ -1,0 +1,352 @@
+@-webkit-keyframes uil-default-anim {
+  0% {
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
+}
+
+@keyframes uil-default-anim {
+  0% {g
+    opacity: 1
+  }
+  100% {
+    opacity: 0
+  }
+}
+.loading-wrapper{
+    position: relative;
+    display: none;
+}
+.uil-default-css {
+  position: relative;
+  background: none;
+  width: 100%;
+  height: 100px;
+}
+.uil-default-css > div{
+    top:80px;
+    left:50%;
+    width:14px;
+    height:40px;
+    // background:#00b2ff;
+    background:#8d8f90;
+    border-radius:10px;
+    position:absolute;
+}
+.uil-default-css > div:nth-of-type(1) {
+  -webkit-transform:rotate(0deg) translate(0,-60px);
+    transform:rotate(0deg) translate(0,-60px);  
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+
+.uil-default-css > div:nth-of-type(2) {
+    -webkit-transform:rotate(30deg) translate(0,-60px);
+      transform:rotate(30deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: -0.4166666666666667s;
+  animation-delay: -0.4166666666666667s;
+}
+
+.uil-default-css > div:nth-of-type(3) {
+    -webkit-transform:rotate(60deg) translate(0,-60px);
+      transform:rotate(60deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: -0.33333333333333337s;
+  animation-delay: -0.33333333333333337s;
+}
+
+.uil-default-css > div:nth-of-type(4) {
+    -webkit-transform:rotate(90deg) translate(0,-60px);
+        transform:rotate(90deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: -0.25s;
+  animation-delay: -0.25s;
+}
+
+.uil-default-css > div:nth-of-type(5) {
+    -webkit-transform:rotate(120deg) translate(0,-60px);
+        transform:rotate(120deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: -0.16666666666666669s;
+  animation-delay: -0.16666666666666669s;
+}
+
+.uil-default-css > div:nth-of-type(6) {
+    -webkit-transform:rotate(150deg) translate(0,-60px);
+        transform:rotate(150deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: -0.08333333333333331s;
+  animation-delay: -0.08333333333333331s;
+}
+
+.uil-default-css > div:nth-of-type(7) {
+    -webkit-transform:rotate(180deg) translate(0,-60px);
+        transform:rotate(180deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+
+.uil-default-css > div:nth-of-type(8) {
+    -webkit-transform:rotate(210deg) translate(0,-60px);
+        transform:rotate(210deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: 0.08333333333333337s;
+  animation-delay: 0.08333333333333337s;
+}
+
+.uil-default-css > div:nth-of-type(9) {
+    -webkit-transform:rotate(240deg) translate(0,-60px);
+        transform:rotate(240deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: 0.16666666666666663s;
+  animation-delay: 0.16666666666666663s;
+}
+
+.uil-default-css > div:nth-of-type(10) {
+    -webkit-transform:rotate(270deg) translate(0,-60px);
+        transform:rotate(270deg) translate(0,-60px);
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
+}
+
+.uil-default-css > div:nth-of-type(11) {
+    -webkit-transform:rotate(300deg) translate(0,-60px);
+        transform:rotate(300deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: 0.33333333333333337s;
+  animation-delay: 0.33333333333333337s;
+}
+
+.uil-default-css > div:nth-of-type(12) {
+    -webkit-transform:rotate(330deg) translate(0,-60px);
+        transform:rotate(330deg) translate(0,-60px); 
+  -webkit-animation: uil-default-anim 1s linear infinite;
+  animation: uil-default-anim 1s linear infinite;
+  -webkit-animation-delay: 0.41666666666666663s;
+  animation-delay: 0.41666666666666663s;
+}
+
+@media (min-width: 992px) {
+    .comment-wrapper{
+       display: none;
+    }
+    .loading-wrapper{
+        display: none;
+    }
+    .fbpl{
+        display: none!important;
+    }
+
+}
+@media (max-width: 991px) {
+    html,body{
+        height: 100%;
+        position: relative;
+    }
+    .mw-data-after-content-block{
+        display: none;
+    }
+    body{
+        background-color: #fff!important;
+    }
+    // #wrapper{
+    //     position: fixed;
+    //     top: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     left: 0;
+    // }
+    .loading-wrapper{
+        display: block;
+        position: absolute;
+        bottom: 60px;
+        z-index: -1;
+        width: 100%;
+    }
+    #footer{
+        display: none;
+    }
+
+}
+
+.comment-wrapper .comments {
+    position: relative;
+    padding: 16px 15px;
+    background-color: #fff;
+}
+
+.comment-wrapper .comments:before {
+    content: "";
+    left: 0;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    border-bottom: 1px solid #acacac;
+    -webkit-transform: scaleY(.5);
+    -ms-transform: scaleY(.5);
+    transform: scaleY(.5)
+}
+
+.comment-wrapper .comments .comment-p {
+    padding: 5px 30px;
+    height: 24px;
+    line-height: 12px;
+    background: url(../images/icon_pinglun@2x.png) left top no-repeat;
+    background-size: 22.5px 22px
+}
+
+.comment-wrapper .comments .triangle::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    margin-top: -11px;
+    margin-left: -8px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #fff
+}
+
+.comment-wrapper .comment-box {
+    background-color: #ececec;
+    padding: 10px 0
+}
+
+.comment-wrapper .comment-box .comment-floor {
+    padding: 0 10px
+}
+
+.comment-wrapper .comment-box .comment-floor .author-nav {
+    position: relative;
+    padding:10px 0;
+}
+.comment-wrapper .comment-box .comment-floor .author-nav .img {
+    margin-left: 10px;
+    width: 32px;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 32px;
+    border: none;
+}
+.comment-wrapper .comment-box .comment-floor .author-nav .zan {
+    float: right;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: inline-block;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 25px;
+    background: url(../images/icon_assist@3x.png) left top no-repeat;
+    background-size: 15px 15.5px;
+    color: #cbcbcb
+}
+
+.comment-wrapper .comment-box .comment-floor .author-nav .zan.on {
+    background-image: url(../images/icon_assist_selected@2x.png);
+    color: #7a7a7a
+}
+
+.comment-wrapper .comment-box .comment-floor .author-nav .author {
+    margin-left: 10px
+}
+
+.comment-wrapper .comment-box .comment-floor .author-nav .author.hot {
+    padding-left: 22px;
+    background: url(../images/icon_hot@2x.png) left center no-repeat;
+    background-size: 12px 15px
+}
+
+.comment-wrapper .comment-box .comment-floor .comment-content {
+    margin: 0 40px 0 35px;
+    padding-left: 24px;
+    position: relative
+}
+
+.comment-wrapper .comment-box .comment-floor .comment-content .comment {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #c7e8d9;
+    color: #747474;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 6px 12px;
+    position: relative
+}
+
+.comment-wrapper .comment-box .comment-floor .comment-content .comment:after {
+    position: absolute;
+    content: '';
+    left: -8px;
+    top: 10px;
+    background: url(../images/lvsejiao@2x.png) left top no-repeat;
+    width: 8px;
+    height: 15px;
+    background-size: 8px 15px
+}
+
+.comment-wrapper .comment-box .comment-floor .comment-content:after {
+    position: absolute;
+    content: '';
+    left: -10px;
+    height: 100%;
+    top: 0;
+    border-left: 1px solid #c1c1c1
+}
+
+.comment-wrapper .comment-box .loading {
+    text-align: center;
+    line-height: 40px;
+    height: 40px
+}
+
+.comment-wrapper .comment-box .loading span {
+    display: inline-block;
+    color: #7a7a7a
+}
+
+.comment-wrapper .comment-box .author-nav .img {
+    margin-left: 10px;
+    width: 32px;
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 32px;
+    border: none
+}
+
+.comment-wrapper .comment-box .author-nav .author {
+    color: #737373;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle
+}
+
+.comment-wrapper .comment-box .author-nav .time {
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 15px;
+    background: url(../images/icon_time@2x.png) left center no-repeat;
+    background-size: 10px 10px;
+    font-size: 12px;
+    color: #cbcbcb;
+    vertical-align: middle
+}

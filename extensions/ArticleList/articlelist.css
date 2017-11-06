@@ -1,0 +1,75 @@
+.wjm1125 *{ padding:0; margin:0; font-family: \5FAE\8F6F\96C5\9ED1;font-size:14px }
+.wjm1125 i,.wjm1125 em{ font-style:normal;z-index:auto}
+.wjm1125 a{ text-decoration:none; color:#333; cursor:pointer}
+.wjm1125 li{ text-decoration:none; list-style:none}
+.c-wjm{ clear:both; height:0px}
+.wjm1125 .fr{ float:right}.wjm1125 .fl{ float:left}
+.wjm1125 i,.wjm1125 s,.wjm1125 b,.wjm1125 em,.wjm1125 tt,.wjm1125 a,.wjm1125 u{ display:inline-block;* display:inline;zoom:1; }
+.hide-wjm{ display:none}
+.show-wjm{ display:block}
+.wjm1125 .tit{ color:#555}
+.wjm1125  .a0{ color:#a0a0a0}
+.wjm1125 .bl{color:#555}
+
+.wjm1125  u{text-decoration:none}
+.list-wjm{ width:350px; color:#555}
+.list-wjm ul{ margin-left:0 !important; margin-top:0 !important}
+.list-wjm .li-a{ height:32px}
+.list-wjm li{ line-height:32px; height:32px}
+.wjm1125 .tag {min-height: inherit !important; border: none !important;-webkit-border-radius: 0px !important;border-radius: 0px!important;margin-left: 0px; padding: 0px;}
+.list-wjm .li-a:hover{ }
+.wjm1125 .tag:before,.wjm1125 .tag:after{ display:none !important}
+.list-wjm u,.list i{ vertical-align:top}
+.list-wjm .w6{ width:6px;  height:32px}
+.list-wjm .tit{overflow:hidden; white-space: nowrap; text-overflow:ellipsis; color:inherit; text-decoration:inherit }
+.list-wjm .date{ float:right; margin-left:30px; font-size:16px; color:#a0a0a0}
+body .wjm1125 .bl:hover{ color:#408efb;text-decoration:underline}
+body .wjm1125 .bl:hover .tit{ color:#408efb !important}
+body .wjm1125 .bl1:hover{ color:#408efb;}
+body .wjm1125 .bl:hover u{text-decoration:underline ;}
+
+
+.list2-wjm{width:350px; color:#555}
+.list2-wjm ul{ margin-left:0 !important}
+.list2-wjm li{ margin-bottom:20px; background:#fff}
+.list2-wjm .list-img{ width:116px; height:80px; margin-right:10px; background:#9C0; float:left; z-index:auto !important; }
+.list2-wjm .list-img a{ width:100% ; height:100%}
+.list2-wjm .list-img img{ width:100%; height:100%; overflow: hidden; display:block}
+.list2-wjm .list-titall{ float:left; position:relative; height:80px}
+.list2-wjm .tit{ font-size:16px;height:3em; z-index:auto !important }
+.list2-wjm .tit u{ line-height:1.5em;font-size:16px }
+.list2-wjm .list-pic{ width:14px; height:14px;  margin-right:10px; vertical-align:middle}
+.list2-wjm .list-pic img{ width:100%; height:100%; vertical-align:top;}
+.list2-wjm .date{ margin-right:40px; vertical-align:middle; font-size:14px }
+.list2-wjm .gray{ position:absolute; left:0; bottom:0}
+
+.list3-wjm{width:340px; color:#555; margin-right:20px; float:left}
+.list3-wjm ul{ margin-left:0 !important; margin-top:0 !important}
+.list3-wjm .list-img{   margin-bottom:10px; overflow:hidden;display:block !important}
+.list3-wjm .list-img img{ width:100%; height:auto; display:block }
+.list3-wjm .tit{overflow:hidden; white-space: nowrap; text-overflow:ellipsis; width:100%; vertical-align:top; line-height:32px }
+.list3-wjm .li{ line-height:32px; height:32px}
+
+
+
+
+@media only screen and (max-width: 720px){
+    .list-wjm .w6{ width:6px;  height:45px; vertical-align:top; line-height:45px}
+    .list-wjm .li-a{ height:45px}
+    .list-wjm,.list2-wjm {  width:100% !important; background:#fff}
+    .list-wjm li{ padding:0 10px; color:#555; border-bottom:1px solid #eaeaea; line-height:45px; font-size:15px; height:45px }
+    .list-wjm li:active{ background:#f4f4f4}
+    .list2-wjm li{padding:0 10px; height:89px; margin-bottom:0; border-bottom:1px solid #eaeaea}
+    .list2-wjm li:active{ background:#f4f4f4}
+    .list2-wjm .list-img{ width:98px; height:68px; margin:10px 10px 10px 0; border:1px solid #eaeaea }
+    .list2-wjm .tit u{ margin-top:15px; line-height:20px }
+    .list2-wjm .list-pic{ width:11px; height:11px;top:6px; margin-right:5px}
+    .list2-wjm .list-pic img{ vertical-align:top}
+    .list2-wjm .gray{ font-size:14px;bottom: -3px}
+    .list3-wjm { width:100% !important; margin-right:0}
+    .list3-wjm .list-img{ margin:11px 11px 0px 11px;  border:1px solid #eaeaea;overflow:hidden; height:auto  }
+    .list3-wjm .tit{ line-height:45px; height:45px; border-bottom:1px solid #eaeaea; vertical-align:top; display:block}
+    .list3-wjm li{ vertical-align:top;padding:0 10px;}
+    .list3-wjm li:active{ background:#f4f4f4}
+
+}

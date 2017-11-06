@@ -1,0 +1,30 @@
+{
+    "name": "set_site_info",
+    "author": [
+        "?var Arnfj?r? Bjarmason",
+        "Aaron Schulz"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:Renameuser",
+    "descriptionmsg": "set_site-desc",
+    "license-name": "GPL-2.0+",
+    "type": "specialpage",
+    "GroupPermissions": {
+        "bureaucrat": {
+            "seosettings": true
+        }
+    },
+    "MessagesDirs": {
+        "set_site_info": [
+            "i18n"
+        ]
+    },
+    "AvailableRights": [
+        "set_site_info"
+    ],
+    "SpecialPages": {
+        "SeoSettings": "SpecialSeoSettings"
+    },
+    "AutoloadClasses": {
+        "SpecialSeoSettings": "specials/SpecialSeoSettings.php"
+    }
+}

@@ -1,0 +1,29 @@
+{
+	"name": "ClickLike",
+	"version": "1.0",
+	"author": [	"Islander" ],
+	"url": "https://www.mediawiki.org/wiki/Extension:ClickLike",
+	"descriptionmsg": "clicklike-desc",
+	"type": "parserhook",
+	"APIModules": {
+		"clicklike": "ClickLikeAPI"
+	},
+	"ExtensionMessagesFiles": {
+		"ClickLikeMagic": "ClickLike.i18n.magic.php"
+	},
+	"AutoloadClasses": {
+		"ClickLikeAPI": "ClickLike.api.php",
+		"ClickLikePage": "ClickLikePage.php",
+		"ClickLike": "ClickLike.hooks.php"		
+	},
+	"ResourceModules": {
+		"ext.clicklike.js": {
+			"scripts": "ClickLike.js"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"ClickLikeHooks::onParserFirstCallInit"
+		]
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"name": "JoymeRecentChanges",
+	"version": "1.0",
+	"author": [	"GradyDong" ],
+	"url": "Extension:JoymeRecentChanges",
+	"descriptionmsg": "JoymeRecentChanges-desc",
+	"type": "parserhook",
+	"APIModules": {},
+	"MessagesDirs": {
+		"JoymeRecentChanges": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {},
+	"AutoloadClasses": {
+		"JoymeRecentChangesHooks": "JoymeRecentChanges.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.joymerecentchanges.css": {
+			"styles": "JoymeRecentChanges.css",
+			"position": "top"
+		},
+		"ext.joymerecentchanges.js": {
+			"scripts": "JoymeRecentChanges.js",
+			"messages": [
+				"JoymeRecentChanges-once"
+			]
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": [
+			"JoymeRecentChangesHooks::onParserFirstCallInit"
+		]
+	}
+}

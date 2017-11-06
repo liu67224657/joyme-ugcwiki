@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Liangent",
+			"PhiLiP",
+			"Wrightbus"
+		]
+	},
+	"notification-follow-msg-link": "你",
+	"notification-follow": "$2关注了$3",
+	"notification-follow-flyout": "$2关注了$3",
+	"ur-backlink": "&lt; 回到$1的个人资料",
+	"ur-relationship-count-foes": "$1已经有$2位粉丝了。",
+	"ur-relationship-count-friends": "$1已经有$2位关注了。",
+	"ur-add-friend": "加入成为朋友",
+	"ur-add-foe": "加入成为粉丝",
+	"ur-remove-relationship-friend": "从朋友清单移除",
+	"ur-remove-relationship-foe": "从粉丝列表移除",
+	"ur-give-gift": "送礼物",
+	"ur-previous": "先前",
+	"ur-next": "后继",
+	"ur-remove-relationship-title-foe": "您要把$1从粉丝列表中移除吗?",
+	"ur-remove-relationship-title-confirm-foe": "您已把$1从粉丝列表中移除",
+	"ur-remove-relationship-title-friend": "您要把$1从朋友清单中移除吗?",
+	"ur-remove-relationship-title-confirm-friend": "您已把$1从朋友清单中移除",
+	"ur-remove-error-message-remove-yourself": "您不能移除自己。",
+	"ur-remove": "移除",
+	"ur-cancel": "取消",
+	"ur-login": "登录",
+	"ur-add-title-foe": "您要成为$1的粉丝吗?",
+	"ur-add-title-friend": "您要关注$1吗?",
+	"ur-add-button-foe": "粉丝",
+	"ur-add-button-friend": "关注",
+	"ur-accept": "接受",
+	"ur-reject": "拒绝",
+	"ur-title-foe": "$1的粉丝列表",
+	"ur-title-friend": "$1的关注列表",
+	"friend_request_subject": "$1已在{{SITENAME}}把您加入成为朋友！",
+	"friend_removed_subject": "哎唷！$1已在{{SITENAME}}把您从朋友清单移除了!"
+}

@@ -1,0 +1,28 @@
+{
+  "@metadata": {
+	"authors": [
+	  "Shixin"
+	]
+  },
+  "aboutme":"关于我的",
+  "givemethumbup":"给我的赞",
+  "citemy":"@我的",
+  "systemmessage":"系统消息发送",
+  "comments":"评论我的",
+  "considerme":"关注我的",
+  "system-message-input-wikikey":"请输入通知的wiki",
+  "system-message-input-wikikey—tip":"注意：如果不填写则通知全部WIKI用户，填写某WIKI Key,，则只通知关注了该WIKI的用户",
+  "system-message-input-message":"通知内容",
+  "system-message_submit":"提交",
+  "system-message_success":"提交成功",
+  "system-message_fild":"提交失败",
+  "system-message_empty":"通知内容不能为空",
+  "system-message-history":"历史通知:",
+  "system-message-history-td1":"通知时间",
+  "system-message-history-td2":"通知范围",
+  "system-message-history-td3":"通知内容",
+  "action-systemmessage":"系统消息发送",
+  "action-aboutme":"查看提醒列表",
+  "right-systemmessage":"发送系统消息",
+  "not-exists-list":"以下wikikey不存在，请修改后再提交"
+}

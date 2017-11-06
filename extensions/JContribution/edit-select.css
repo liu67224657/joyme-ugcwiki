@@ -1,0 +1,24 @@
+/*select表单 样式 开始*/
+.select-box{height:54px;background: #fff;border-bottom:10px solid transparent;margin-bottom:10px;-webkit-border-top-left-radius: 5px;-webkit-border-top-right-radius: 5px;border-top-left-radius: 5px;border-top-right-radius: 5px;-moz-border-top-left-radius: 5px;-moz-border-top-right-radius: 5px;-ms-border-top-left-radius: 5px;-ms-border-top-right-radius: 5px;-o-border-top-left-radius: 5px;-o-border-top-right-radius: 5px;}
+.select-area{position: relative;float: left;max-width:95px;overflow: hidden;padding:0 14px 0 0;height:30px;margin:12px 6px 0;text-indent: 8px;}
+.select-ele {width: 100%;overflow: hidden;text-indent: 0;}
+.select-ele i{position: absolute;right:0;bottom:8px;}
+
+.select-value{height:30px;line-height:30px;display: block;width:100%;overflow: hidden;padding:0 3px;text-align:center;}
+.select-area select{position: absolute;left:0;top:0;opacity: 0;height:30px;line-height: 30px;width:80px;font-size:18px;cursor: pointer;}
+.eidt-change,.eidt-add{font-style: normal;width:42px;height:22px;line-height: 22px;text-align: center;color:#fff;font-size:14px;display: block;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;}
+.eidt-change{background-color: #ff5b02;}
+.eidt-add{background-color: #59db93;}
+.edit-list .item-r-text{color:#4d4d4d;word-wrap: break-word;word-break: break-all;}
+/*select表单 样式 结束*/
+.select-area.other-wdith{max-width:200px;}
+@media(max-width:767px){
+	.select-ele .fa{
+		padding-right: 0;
+		right: 12px;
+	}
+	/*slect列表 开始*/
+	.select-box{height:40px;border-bottom-width:5px; border-bottom-color:#ededed;margin:0;}
+  	.select-area{width:25%;max-width:25%;margin:5px 0 0;}
+  	.select-area.other-wdith {width:40%;max-width:40%;}
+}

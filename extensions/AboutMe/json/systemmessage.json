@@ -1,0 +1,28 @@
+{
+  "name": "systemmessage",
+  "author": [
+    "Shixin"
+  ],
+  "url": "https://www.mediawiki.org/wiki/Extension:RecommendUsers",
+  "descriptionmsg": "givemethumbup",
+  "license-name": "GPL-2.0+",
+  "type": "specialpage",
+  "GroupPermissions": {
+    "bureaucrat": {
+      "systemmessage": true
+    }
+  },
+  "AvailableRights": [
+    "systemmessage"
+  ],
+  "SpecialPages": {
+    "SystemMessage": "SpecialSystemMessage"
+  },
+  "AutoloadClasses": {
+    "SpecialSystemMessage": "../specials/SpecialSystemMessage.php",
+    "SendSystemMessage":"../SendSystemMessageClass.php",
+    "EchoSystemMessages":"../SendSystemMessageClass.php",
+    "GetSystemMessageClass":"../GetSystemMessageClass.php",
+    "joymeEchoEven":"../EchoEventClass.php"
+  }
+}

@@ -1,0 +1,53 @@
+.section-left{ height: auto;}
+.section-right{ padding-bottom: 1.8em;}
+.select-area{position: relative;float: left; width:232px;overflow: hidden;padding:0 14px 0 0;height:30px;text-indent: 8px;}
+.select-ele {width: 100%;overflow: hidden;text-indent: 0;}
+.select-ele i{position: absolute;right:0;bottom:0px; width: 38px; height: 32px; display: block; background: url("../images/wiki-dty-blue.jpg") no-repeat;}
+.select-ele i.fa{background: url("../images/wiki-dty-hui.jpg") no-repeat;}
+.select-value{ border-radius:4px;border: 1px solid #24a4ff;height:30px;line-height:30px;display: block;width:92%;overflow: hidden;padding:0 3px;text-align:center;}
+.select-value2{ border: 1px solid #f3f3f3;}
+.select-area select{position: absolute; border:1px solid #24a4ff;left:0;top:0;opacity: 0;height:30px;line-height: 30px;width:232px;cursor: pointer;}
+.eidt-change,.eidt-add{font-style: normal;width:42px;height:22px;line-height: 22px;text-align: center;color:#000;font-size:14px;display: block;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;}
+.eidt-change{background-color: #ff5b02;}
+.select-area select option{ margin-top:1em;}
+.eidt-add{background-color: #59db93;}
+.edit-list .item-r-text{color:#4d4d4d;}
+/*select表单 样式 结束*/
+.select-area.other-wdith{max-width:200px;}
+@media(max-width:767px){
+    /*slect列表 开始*/
+    .select-box{height:40px;border-bottom-width:5px; border-bottom-color:#ededed;margin:0;}
+    .select-area{width:25%;max-width:25%;margin:5px 0 0;}
+    .select-area.other-wdith {width:40%;max-width:40%;}
+}
+.section1{ padding-left:1em; height:3em;background-color: #fff; margin-top: 1em; border-radius: 4px; padding-top: 0.5em;}
+.gx-lf{ float: left; margin-right: 3em;}
+.gx-lf .gx-title{ float: left; padding-right: 1em; line-height: 30px;}
+.section2{ margin-top: 1em; padding: 1.5em 1em 2em 1em; background-color: #fff; border-radius: 4px;}
+table.wikitable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: #555;
+    margin: 20px auto;
+}
+table.wikitable td a{ color: #555;}
+table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td{
+    border: 1px #c5d0dd solid;
+    padding: 8px 8px 8px 12px;
+}
+table.wikitable > tr > th, table.wikitable > * > tr > th{background-color: #f4f9ff;
+    text-align: left; height: 44px; font-weight: normal;}
+table.wikitable > * > tr > th select{ border: none; background-color:transparent;}
+
+/*分页开始 */
+.paging1{text-align: center; padding-top: 3em; padding-bottom: 1.15em;}
+.paging1 a{border:1px solid #d4d4d4;padding:5px 10px;margin-left:5px;font-size:14px;line-height: 14px;display: inline-block;vertical-align: middle;}
+.paging1 a,.paging a.count-num:hover{border-color:#d4d4d4;background: #fff;color:#333;}
+.paging1 span.on a,.paging a:hover{background: #0099ff;border-color:#0099ff;color:#fff;}
+.paging1 a.count-num:hover{cursor: default;}
+.paging1 a.count-num b{font-weight: 600;padding:0 3px;}
+/*分页 结束 */
+@media (max-width: 767px) {
+    .select-area select{ width: 120px; left: -90px;}
+}

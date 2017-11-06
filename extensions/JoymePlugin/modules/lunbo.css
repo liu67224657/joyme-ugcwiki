@@ -1,0 +1,33 @@
+/*lunbo.css*/
+#focus_img{
+	position:relative; 
+	clear:both; 
+	font-size:12px; 
+	text-align:center; 
+	line-height:0
+}
+#focus_img img{
+	display:none; 
+}
+#focus_img span{
+	display:block; 
+	padding:2px 0 1px 10px; 
+	line-height:12px; 
+	background:url(./modules/images/alpha50.png) repeat; 
+	text-align:center; 
+	position:absolute; 
+	bottom:10px; 
+	left:50%; 
+	border-radius:8px;
+}
+#focus_img i{
+	display:inline-block; 
+	width:10px; 
+	height:10px; 
+	border-radius:10px; 
+	background-color:#666; 
+	margin-right:10px;
+	z-index: 9;
+}
+#focus_img i.current{background-color:#333}
+

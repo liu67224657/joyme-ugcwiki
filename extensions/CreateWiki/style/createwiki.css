@@ -1,0 +1,32 @@
+.view-status {
+    font-weight: 800;
+    font-size: 12px;
+    background-color: #FFFB9B;
+    color: #666666;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.user_list{
+    background-color:cornflowerblue;
+    margin-right: 50px;
+    padding: 5px;
+}
+#create_wiki:not(select) .error
+{
+    color:red;
+}
+#create_wiki  select.error {color:black;}
+
+#mw-content-text{
+    width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+}
+#create_wiki tr{line-height: 30px;}
+#create_wiki tr td input {
+    line-height: normal;
+}
+/*********特殊页面表单显示*********/
+input[type="radio"]{appearance: radio !important;-webkit-appearance: radio !important;}
