@@ -27,8 +27,8 @@ $joyme_u_key = 'xxxxxxx';
 
 
 //七牛云存储配置
-$wgQiNiuPath = 'joymepic.joyme.com';
-$wgQiNiuBucket = 'joymepic';
+$wgQiNiuPath = 'xxxxxxxxx';
+$wgQiNiuBucket = 'xxxxxxx';
 
 //配置加载PHP公共库的具体路径
 $GLOBALS['libPath'] = '/opt/www/joymephplib/prod/phplib.php';
